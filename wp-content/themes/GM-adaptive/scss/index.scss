@@ -1,0 +1,51 @@
+@import 'fonts';
+@import 'variables';
+@import 'header';
+@import 'home';
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: PTSansRegular;
+}
+
+p {
+  font-family: PTSansRegular;
+  color: $text_color;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: CenturyGothicRegular;
+  color:  $text_color;
+  font-size: 38px;
+  font-weight: 400;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 18px 20px 13px;
+}
+
+.section-wrapper {
+  background-color: white;
+  width: $lg_width;
+  margin: 0 auto;
+}
+
+.title {
+  display: block;
+  font-family: CenturyGothicRegular;
+  color:  $text_color;
+  font-size: 38px;
+  font-weight: 400;
+  margin: 0 auto;
+}

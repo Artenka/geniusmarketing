@@ -1,0 +1,68 @@
+nav#main-nav {
+  width: 100%;
+  background-color: $dark_grey;
+  height: 60px;
+  margin: 0 auto;
+  color: white;
+
+  .main-nav-wrapper {
+    width: $lg_width;
+    height: 60px;
+    margin: 0 auto;
+    background-color: $dark_grey;
+
+    a.brand {
+      display: inline-block;
+      text-decoration: none;
+
+      span {
+        width: 81px;
+        height: 81px;
+        display: block;
+        border-radius: 50%;
+        background-color: $dark_grey;
+        background-image: url('../img/GM_logo.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: absolute;
+      }
+
+      p {
+        font-family: PTSansBold;
+        color: white;
+        margin: 0 0 0 90px;
+        font-size: 19px;
+        font-weight: 700;
+        text-align: left;
+        line-height: 60px;
+      }
+    }
+
+    ul {
+      display: inline-block;
+      list-style: none;
+      margin: 0;
+      float: right;
+
+      li {
+        display: inline-block;
+        line-height: 60px;
+        margin: 0 17px;
+
+        a {
+          font-family: PTSansRegular;
+          color: white;
+          font-size: 17px;
+          font-weight: 400;
+          text-align: right;
+          line-height: 60px;
+        }
+
+        a:hover {
+          color: $grey;
+        }
+      }
+    }
+  }
+}
+
