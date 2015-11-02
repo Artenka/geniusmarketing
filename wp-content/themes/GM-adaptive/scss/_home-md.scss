@@ -1,6 +1,6 @@
 @media (min-width: 724px) and (max-width: 1140px) {
 
-  /*
+/*
  * HOME -> HEADER
  */
 
@@ -51,7 +51,7 @@
     }
   }
 
-  /*
+/*
  * HOME -> SPEAKS
  */
 
@@ -86,7 +86,7 @@
     }
   }
 
-  /*
+/*
  * HOME -> SHORT VIDEO
  */
 
@@ -133,7 +133,7 @@
     }
   }
 
-  /*
+/*
  * HOME -> EVENTS
  */
 
@@ -242,4 +242,136 @@
     }
   }
 
+/*
+ * HOME -> REASONS
+ */
+
+  #reasons {
+    padding: 0 0 35px;
+
+    header {
+      height: 310px;
+      background-size: cover;
+
+      p {
+        width: 700px;
+        font-size: 20px;
+        margin: 10px auto;
+      }
+    }
+
+    .section-wrapper {
+
+      .reasons-element {
+        width: 600px;
+        display: block;
+        float: none;
+        margin: 20px auto !important;
+      }
+    }
+  }
+
+/*
+ * HOME -> WELCOME
+ */
+
+  #welcome {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    background-size: cover;
+
+    header {
+      width: 100%;
+      padding: 20px 0 40px;
+      margin: 70px auto 0;
+
+      .section-wrapper {
+        width: 100%;
+        text-align: center;
+
+        h1 {
+          display: block;
+          width: 720px;
+          font-size: 34px;
+          margin: 40px auto;
+        }
+
+        p {
+          display: block;
+          width: 700px;
+          font-size: 20px;
+          margin: 10px auto;
+        }
+      }
+    }
+
+    .section-wrapper {
+
+      .welcome-elements {
+        width: 550px;
+        overflow: hidden;
+        margin: 0 auto 70px;
+
+        .welcome-element {
+          width: 50%;
+          margin-bottom: 20px;
+          float: left;
+        }
+      }
+    }
+  }
+
+/*
+ * HOME -> BUT
+ */
+
+  #but {
+    width: 100%;
+    padding: 60px 0;
+
+    .section-wrapper {
+
+      > h1 {
+        font-size: 34px;
+        margin-top: 0;
+      }
+
+      > h2 {
+        font-size: 22px;
+        width: 650px;
+      }
+
+      > p {
+        font-size: 18px;
+        width: 700px;
+
+        b {
+          font-family: PTSansBold;
+          font-weight: 700;
+        }
+      }
+
+      .but-elements {
+        width: 724px;
+        margin: 0 auto;
+
+        .but-element {
+          width: 228px;
+          margin: 35px 5px 50px;
+
+          img {
+            width: 100%;
+            height: 135px;
+          }
+
+          p {
+            font-size: 14px;
+            padding: 0 13px;
+            margin: 15px 0;
+          }
+        }
+      }
+    }
+  }
 }

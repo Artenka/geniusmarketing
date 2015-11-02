@@ -28,6 +28,13 @@ h1 {
   font-weight: 400;
 }
 
+h2 {
+  font-family: CenturyGothicRegular;
+  color:  $text_color;
+  font-size: 24px;
+  font-weight: 400;
+}
+
 a, a:hover {
   text-decoration: none;
 }
@@ -41,11 +48,16 @@ button {
 }
 
 .section-wrapper {
-  background-color: white;
   width: $lg_width;
   height: auto;
   margin: 0 auto;
   overflow: hidden;
+}
+
+@media (max-width: 1140px) {
+  .section-wrapper {
+    width: 100%;
+  }
 }
 
 .title {

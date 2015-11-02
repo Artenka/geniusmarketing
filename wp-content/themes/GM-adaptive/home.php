@@ -232,4 +232,87 @@
     </div>
 </section>
 
+<!-- WELCOME -->
+<section id="welcome">
+    <header>
+        <div class="section-wrapper">
+            <h1>Добро Пожаловать в Интернет Маркетинг Лабораторию Знаний №1 в СНГ</h1>
+            <p>Сегодня Вы можете найти массу полезной информации на нашем сайте по запуску или масштабированию Вашего проекта.</p>
+            <p>Причем, мы берем все направления онлайн продвижения и вскрываем все самое ценное в них.</p>
+        </div>
+    </header>
+
+    <div class="section-wrapper">
+        <h2>Среди бесплатных материалов Вы найдете обучение по:</h2>
+
+        <div class="welcome-elements">
+            <div class="welcome-element">
+                <span class="icon-sales"></span>
+                <p>Продажам</p>
+            </div>
+            <div class="welcome-element">
+                <span class="icon-graph"></span>
+                <p>Увеличении конверсии</p>
+            </div>
+            <div class="welcome-element">
+                <span class="icon-rocket"></span>
+                <p>Масштабированию проектов</p>
+            </div>
+            <div class="welcome-element">
+                <span class="icon-money"></span>
+                <p>Увеличению среднего чека</p>
+            </div>
+            <div class="welcome-element">
+                <span class="icon-megaphone"></span>
+                <p>Маркетингу</p>
+            </div>
+            <div class="welcome-element">
+                <span class="icon-magnet"></span>
+                <p>Привлечению посетителей</p>
+            </div>
+            <div class="welcome-element">
+                <span class="icon-microphone"></span>
+                <p>Оффлайн.онлайн событиям</p>
+            </div>
+            <div class="welcome-element">
+                <span class="icon-list"></span>
+                <p>И многое другое.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- BUT -->
+<section id="but">
+    <div class="section-wrapper">
+        <h1>Но...</h1>
+        <h2>Есть и часть знаний, которые находятятся за прочной дверью нашей лаборатории и доступны <span class="text-red">не всем</span></h2>
+
+        <span class="icon-lock"></span>
+
+        <p><b>Но Вы можете их получить.</b> При чем, мы обновляем их каждый месяц и они, "условно" бесплатны. Вот несколько из тех тренировок, которые доступны в "закрытом" разделе нашего сайта.</p>
+
+        <div class="but-elements">
+            <div class="but-element">
+                <img src="<?php bloginfo(template_url); ?>/img/home/but/img.jpg">
+                <p><b>копирайтинг</b> - слова, которые приносят деньги</p>
+            </div>
+
+            <div class="but-element">
+                <img src="<?php bloginfo(template_url); ?>/img/home/but/img.jpg">
+                <p><b>копирайтинг</b> - слова, которые приносят деньги</p>
+            </div>
+
+            <div class="but-element">
+                <img src="<?php bloginfo(template_url); ?>/img/home/but/img.jpg">
+                <p><b>копирайтинг</b> - слова, которые приносят деньги</p>
+            </div>
+        </div>
+
+        <h2>Готовы получить доступ внутрь закрытого сайта? Жмите кнопку ниже.</h2>
+
+        <button class="btn-green">Хочу Получить Доступ</button>
+    </div>
+</section>
+
 <?php get_footer(); ?>

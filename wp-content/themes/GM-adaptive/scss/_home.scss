@@ -266,6 +266,7 @@ header#main-header {
 
     h1 {
       line-height: 32px;
+      text-align: center;
     }
 
     .events {
@@ -381,7 +382,7 @@ header#main-header {
  */
 
 #reasons {
-  padding: 100px 0;
+  padding: 0 0 100px;
 
   header {
     height: 310px;
@@ -444,6 +445,197 @@ header#main-header {
 
     .reasons-element:last-child {
       margin-right: 3px;
+    }
+  }
+}
+
+/*
+ * HOME -> WELCOME
+ */
+
+#welcome {
+  width: 100%;
+  height: 761px;
+  padding: 0;
+  background-image: url('../img/home/welcome/welcome-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+
+  header {
+    background-color:  $blue;
+    width: 1349px;
+    padding: 30px 0;
+    margin: 70px auto 0;
+
+    .section-wrapper {
+      background-color:  $blue;
+      width: 870px;
+      text-align: center;
+
+      h1 {
+        font-size: 38px;
+        color:  #ffffff;
+      }
+
+      p {
+        font-size: 22px;
+        color:  #ffffff;
+      }
+    }
+  }
+
+  .section-wrapper {
+
+    h2 {
+      font-family: CenturyGothicRegular;
+      color:  #ffffff;
+      font-size: 24px;
+      font-weight: 400;
+      text-align: center;
+      margin: 60px 0;
+    }
+
+    .welcome-element {
+      width: 280px;
+      height: 50px;
+      display: inline-block;
+      overflow: hidden;
+      margin-bottom: 20px;
+
+      span {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        border-radius: 3px;
+        border: none;
+        background-color: $blue;
+        background-repeat: no-repeat;
+        background-position: center center;
+        float: left;
+        margin-right: 25px;
+      }
+
+      p {
+        width: 190px;
+        height: 50px;
+        display: table-cell;
+        color:  #ffffff;
+        font-size: 20px;
+        text-align: left;
+        margin: 0;
+        vertical-align: middle;
+      }
+    }
+
+    .icon-sales {
+      background-image: url('../img/home/welcome/icons/icon-sales.png');
+    }
+    .icon-graph {
+      background-image: url('../img/home/welcome/icons/icon-graph.png');
+    }
+    .icon-rocket {
+      background-image: url('../img/home/welcome/icons/icon-rocket.png');
+    }
+    .icon-money {
+      background-image: url('../img/home/welcome/icons/icon-money.png');
+    }
+    .icon-megaphone {
+      background-image: url('../img/home/welcome/icons/icon-megaphone.png');
+    }
+    .icon-magnet {
+      background-image: url('../img/home/welcome/icons/icon-magnet.png');
+    }
+    .icon-microphone {
+      background-image: url('../img/home/welcome/icons/icon-microphone.png');
+    }
+    .icon-list {
+      background-image: url('../img/home/welcome/icons/icon-list.png');
+    }
+  }
+}
+
+/*
+ * HOME -> BUT
+ */
+
+#but {
+  width: 100%;
+  background-color: $light_grey;
+  padding: 60px 0;
+
+  .section-wrapper {
+    background-color: $light_grey;
+
+    > h1 {
+      text-align: center;
+    }
+
+    > h2 {
+      display: block;
+      width: 831px;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    > p {
+      font-size: 18px;
+      display: block;
+      width: 800px;
+      text-align: center;
+      margin: 0 auto;
+
+      b {
+        font-family: PTSansBold;
+        font-weight: 700;
+      }
+    }
+
+    .icon-lock {
+      display: block;
+      width: 64px;
+      height: 64px;
+      margin: 30px auto;
+      background-image: url('../img/home/but/lock.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+
+
+    .but-element {
+      display: inline-block;
+      width: 364px;
+      height: auto;
+      border-radius: 5px;
+      border: none;
+      box-sizing: border-box;
+      background-color:  #ffffff;
+      border-bottom: 2px solid #d7d7d7;
+      margin: 50px 6px 80px;
+
+      img {
+        width: 100%;
+        height: 214px;
+      }
+
+      p {
+        padding: 0 20px;
+        margin: 17px 0;
+
+        b {
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    button {
+      display: block;
+      font-family: PTSansBold;
+      font-size: 20px;
+      font-weight: 700;
+      text-align: center;
+      text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+      margin: 50px auto 20px;
     }
   }
 }
