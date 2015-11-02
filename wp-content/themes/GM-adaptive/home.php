@@ -272,7 +272,7 @@
             </div>
             <div class="welcome-element">
                 <span class="icon-microphone"></span>
-                <p>Оффлайн.онлайн событиям</p>
+                <p>Оффлайн/онлайн событиям</p>
             </div>
             <div class="welcome-element">
                 <span class="icon-list"></span>
@@ -294,16 +294,19 @@
 
         <div class="but-elements">
             <div class="but-element">
+                <span class="locked"></span>
                 <img src="<?php bloginfo(template_url); ?>/img/home/but/img.jpg">
                 <p><b>копирайтинг</b> - слова, которые приносят деньги</p>
             </div>
 
             <div class="but-element">
+                <span class="locked"></span>
                 <img src="<?php bloginfo(template_url); ?>/img/home/but/img.jpg">
                 <p><b>копирайтинг</b> - слова, которые приносят деньги</p>
             </div>
 
             <div class="but-element">
+                <span class="locked"></span>
                 <img src="<?php bloginfo(template_url); ?>/img/home/but/img.jpg">
                 <p><b>копирайтинг</b> - слова, которые приносят деньги</p>
             </div>
@@ -312,6 +315,59 @@
         <h2>Готовы получить доступ внутрь закрытого сайта? Жмите кнопку ниже.</h2>
 
         <button class="btn-green">Хочу Получить Доступ</button>
+    </div>
+</section>
+
+<section id="students">
+    <div class="section-wrapper">
+        <h1>Узнайте Больше о Результатах Наших Учеников</h1>
+        <p>Среди тысяч отзывов которые мы получаем регулярно, о проведенных нами тренингах, вебинарах, ивентах...</p>
+        <p>Мы так же отбираем самые интересные и превращаем их в конкретные истории успеха, чтобы Вы могли прочитать их, перенять опыт тех, кто уже сделал то, что Вам предстоит и начать действовать.</p>
+
+        <div class="students-elements">
+            <div class="students-element">
+                <img src="<?php bloginfo(template_url); ?>/img/home/students/student-1.jpg">
+                <span>
+                    <h3>Сетлана Липинская</h3>
+                    <p class="bold">Ниша:</p>
+                    <p>Личностный рост</p>
+                    <p class="bold">Доход:</p>
+                    <p>6300 грн за время коучинга</p>
+                </span>
+            </div>
+            <div class="students-element">
+                <img src="<?php bloginfo(template_url); ?>/img/home/students/student-2.jpg">
+                <span>
+                    <h3>Сетлана Липинская</h3>
+                    <p class="bold">Ниша:</p>
+                    <p>Личностный рост</p>
+                    <p class="bold">Доход:</p>
+                    <p>6300 грн за время коучинга</p>
+                </span>
+            </div>
+            <div class="students-element">
+                <img src="<?php bloginfo(template_url); ?>/img/home/students/student-3.jpg">
+                <span>
+                    <h3>Сетлана Липинская</h3>
+                    <p class="bold">Ниша:</p>
+                    <p>Личностный рост</p>
+                    <p class="bold">Доход:</p>
+                    <p>6300 грн за время коучинга</p>
+                </span>
+            </div>
+            <div class="students-element">
+                <img src="<?php bloginfo(template_url); ?>/img/home/students/student-4.jpg">
+                <span>
+                    <h3>Сетлана Липинская</h3>
+                    <p class="bold">Ниша:</p>
+                    <p>Личностный рост</p>
+                    <p class="bold">Доход:</p>
+                    <p>6300 грн за время коучинга</p>
+                </span>
+            </div>
+        </div>
+
+        <button class="btn-transparent">Все Кейсы Учеников</button>
     </div>
 </section>
 

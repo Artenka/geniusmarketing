@@ -17,7 +17,7 @@ body {
 p {
   font-family: PTSansRegular;
   color: $text_color;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -45,6 +45,22 @@ button {
   border-radius: 5px;
   color: white;
   padding: 18px 20px 13px;
+}
+
+section {
+  padding: 60px 0;
+}
+
+@media (min-width: 724px) and (max-width: 1140px) {
+  section {
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 724px) {
+  section {
+    padding: 20px 0;
+  }
 }
 
 .section-wrapper {

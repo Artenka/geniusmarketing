@@ -436,6 +436,7 @@ header#main-header {
           text-align: left;
           margin: 15px 15px 8px; }
         #events .section-wrapper .events .event p {
+          font-size: 16px;
           margin: 8px 15px 20px; }
         #events .section-wrapper .events .event button {
           border-radius: 3px;
@@ -647,15 +648,35 @@ header#main-header {
       box-sizing: border-box;
       background-color: #ffffff;
       border-bottom: 2px solid #d7d7d7;
-      margin: 50px 6px 80px; }
+      margin: 50px 6px 80px;
+      position: relative; }
       #but .section-wrapper .but-element img {
         width: 100%;
         height: 214px; }
+      #but .section-wrapper .but-element .locked {
+        width: 100%;
+        height: 214px;
+        background-color: rgba(5, 20, 63, 0.32);
+        background-image: url("../img/home/but/lock-hover.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border: none;
+        position: absolute;
+        top: 0;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition: visibility 0s, opacity 0.2s linear;
+        transition: visibility 0s, opacity 0.2s linear; }
       #but .section-wrapper .but-element p {
         padding: 0 20px;
         margin: 17px 0; }
         #but .section-wrapper .but-element p b {
           text-transform: uppercase; }
+    #but .section-wrapper .but-element:hover .locked {
+      visibility: visible;
+      opacity: 1; }
     #but .section-wrapper button {
       display: block;
       font-family: PTSansBold;
@@ -664,6 +685,82 @@ header#main-header {
       text-align: center;
       text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
       margin: 50px auto 20px; }
+
+/*
+ * HOME -> STUDENTS
+ */
+#students .section-wrapper h1 {
+  display: block;
+  width: 1000px;
+  margin: 30px auto;
+  text-align: center; }
+#students .section-wrapper p {
+  display: block;
+  width: 1000px;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 18px; }
+#students .section-wrapper .students-elements {
+  width: 1000px;
+  height: 300px;
+  margin: 55px auto 40px;
+  overflow: hidden; }
+  #students .section-wrapper .students-elements .students-element {
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: relative;
+    cursor: pointer; }
+    #students .section-wrapper .students-elements .students-element img {
+      width: 100%;
+      height: 100%; }
+    #students .section-wrapper .students-elements .students-element span {
+      width: 250px;
+      height: 300px;
+      padding-top: 60px;
+      box-sizing: border-box;
+      background-color: #fd4f3f;
+      position: absolute;
+      top: 0;
+      visibility: hidden;
+      opacity: 0;
+      -webkit-transition: visibility 0s, opacity 0.2s linear;
+      transition: visibility 0s, opacity 0.2s linear; }
+      #students .section-wrapper .students-elements .students-element span h3 {
+        width: 250px;
+        font-family: PTSansBold;
+        color: #fffefe;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 15px; }
+      #students .section-wrapper .students-elements .students-element span p {
+        width: 250px;
+        color: #fffefe;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        margin: 0 0 20px; }
+      #students .section-wrapper .students-elements .students-element span p.bold {
+        font-family: PTSansBold;
+        font-weight: 700;
+        margin: 0; }
+  #students .section-wrapper .students-elements .students-element:hover span {
+    visibility: visible;
+    opacity: 0.8; }
+#students .section-wrapper .btn-transparent {
+  display: block;
+  color: #fd4f3f;
+  font-size: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 1px solid #fd4f3f; }
+#students .section-wrapper .btn-transparent:hover {
+  color: #51D88C;
+  border: 1px solid #51D88C; }
 
 @media (min-width: 724px) and (max-width: 1140px) {
   /*
@@ -910,10 +1007,43 @@ header#main-header {
         #but .section-wrapper .but-elements .but-element img {
           width: 100%;
           height: 135px; }
+        #but .section-wrapper .but-elements .but-element .locked {
+          height: 135px;
+          background-image: url("../img/home/but/lock-hover.png"); }
         #but .section-wrapper .but-elements .but-element p {
           font-size: 14px;
           padding: 0 13px;
-          margin: 15px 0; } }
+          margin: 15px 0; }
+
+  /*
+   * HOME -> STUDENTS
+   */
+  #students .section-wrapper h1 {
+    width: 700px;
+    font-size: 34px;
+    margin: 30px auto; }
+  #students .section-wrapper p {
+    width: 700px;
+    margin: 10px auto; }
+  #students .section-wrapper .students-elements {
+    width: 724px;
+    height: 217px;
+    margin: 30px auto; }
+    #students .section-wrapper .students-elements .students-element {
+      width: 181px;
+      height: 217px; }
+      #students .section-wrapper .students-elements .students-element span {
+        width: 181px;
+        height: 217px;
+        padding: 20px 10px 0; }
+        #students .section-wrapper .students-elements .students-element span h3 {
+          width: 161px;
+          font-size: 16px;
+          margin-bottom: 15px; }
+        #students .section-wrapper .students-elements .students-element span p {
+          width: 161px;
+          font-size: 14px;
+          margin: 0 0 20px; } }
 @media (max-width: 724px) {
  /*
 * HOME -> HEADER
@@ -1367,10 +1497,49 @@ header#main-header {
         #but .section-wrapper .but-elements .but-element img {
           width: 100%;
           height: 165px; }
+        #but .section-wrapper .but-elements .but-element .locked {
+          height: 165px;
+          background-image: url("../img/home/but/lock-hover.png"); }
         #but .section-wrapper .but-elements .but-element p {
           font-size: 18px;
           padding: 0 16px;
-          margin: 15px 0; } }
+          margin: 15px 0; }
+
+ /*
+* HOME -> STUDENTS
+*/
+  #students {
+    padding: 40px 0; }
+    #students .section-wrapper h1 {
+      width: 95%;
+      font-size: 24px;
+      margin: 0px auto 20px; }
+    #students .section-wrapper p {
+      width: 95%;
+      margin: 10px auto; }
+    #students .section-wrapper .students-elements {
+      width: 100%;
+      height: auto;
+      margin: 30px auto; }
+      #students .section-wrapper .students-elements .students-element {
+        width: 50%;
+        height: auto;
+        margin-bottom: -5px; }
+        #students .section-wrapper .students-elements .students-element img {
+          width: 100%;
+          height: 100%; }
+        #students .section-wrapper .students-elements .students-element span {
+          width: 100%;
+          height: 100%;
+          padding: 15% 5% 0; }
+          #students .section-wrapper .students-elements .students-element span h3 {
+            width: 90%;
+            font-size: 13px;
+            margin-bottom: 15px; }
+          #students .section-wrapper .students-elements .students-element span p {
+            width: 90%;
+            font-size: 12px;
+            margin: 0 0 15px; } }
 body {
   width: 100%;
   margin: 0;
@@ -1379,7 +1548,7 @@ body {
 p {
   font-family: PTSansRegular;
   color: #363636;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400; }
 
 h1 {
@@ -1404,6 +1573,15 @@ button {
   color: white;
   padding: 18px 20px 13px; }
 
+section {
+  padding: 60px 0; }
+
+@media (min-width: 724px) and (max-width: 1140px) {
+  section {
+    padding: 40px 0; } }
+@media (max-width: 724px) {
+  section {
+    padding: 20px 0; } }
 .section-wrapper {
   width: 1140px;
   height: auto;

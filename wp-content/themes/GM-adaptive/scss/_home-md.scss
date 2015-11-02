@@ -365,10 +365,65 @@
             height: 135px;
           }
 
+          .locked {
+            height: 135px;
+            background-image: url('../img/home/but/lock-hover.png');
+          }
+
           p {
             font-size: 14px;
             padding: 0 13px;
             margin: 15px 0;
+          }
+        }
+      }
+    }
+  }
+
+/*
+ * HOME -> STUDENTS
+ */
+
+  #students {
+
+    .section-wrapper {
+
+      h1 {
+        width: 700px;
+        font-size: 34px;
+        margin: 30px auto;
+      }
+
+      p {
+        width: 700px;
+        margin: 10px auto;
+      }
+
+      .students-elements {
+        width: 724px;
+        height: 217px;
+        margin: 30px auto;
+
+        .students-element {
+          width: 181px;
+          height: 217px;
+
+          span {
+            width: 181px;
+            height: 217px;
+            padding: 20px 10px 0;
+
+            h3 {
+              width: 161px;
+              font-size: 16px;
+              margin-bottom: 15px;
+            }
+
+            p {
+              width: 161px;
+              font-size: 14px;
+              margin: 0 0 20px;
+            }
           }
         }
       }

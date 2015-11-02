@@ -311,6 +311,7 @@ header#main-header {
         }
 
         p {
+          font-size: 16px;
           margin: 8px 15px 20px;
         }
 
@@ -601,7 +602,6 @@ header#main-header {
       background-position: center center;
     }
 
-
     .but-element {
       display: inline-block;
       width: 364px;
@@ -612,10 +612,29 @@ header#main-header {
       background-color:  #ffffff;
       border-bottom: 2px solid #d7d7d7;
       margin: 50px 6px 80px;
+      position: relative;
 
       img {
         width: 100%;
         height: 214px;
+      }
+
+      .locked {
+        width: 100%;
+        height: 214px;
+        background-color:  rgba(5, 20, 63, 0.32);
+        background-image: url('../img/home/but/lock-hover.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border: none;
+        position: absolute;
+        top: 0;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition: visibility 0s, opacity 0.2s linear;
+        transition: visibility 0s, opacity 0.2s linear;
       }
 
       p {
@@ -628,6 +647,14 @@ header#main-header {
       }
     }
 
+    .but-element:hover {
+
+      .locked {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+
     button {
       display: block;
       font-family: PTSansBold;
@@ -636,6 +663,115 @@ header#main-header {
       text-align: center;
       text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
       margin: 50px auto 20px;
+    }
+  }
+}
+
+/*
+ * HOME -> STUDENTS
+ */
+
+#students {
+
+  .section-wrapper {
+
+    h1 {
+      display: block;
+      width: 1000px;
+      margin: 30px auto;
+      text-align: center;
+    }
+
+    p {
+      display: block;
+      width: 1000px;
+      margin: 10px auto;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .students-elements {
+      width: 1000px;
+      height: 300px;
+      margin: 55px auto 40px;
+      overflow: hidden;
+
+      .students-element {
+        display: inline-block;
+        width: 250px;
+        height: 300px;
+        margin: 0;
+        padding: 0;
+        float: left;
+        position: relative;
+        cursor: pointer;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+
+        span {
+          width: 250px;
+          height: 300px;
+          padding-top: 60px;
+          box-sizing: border-box;
+          background-color: $red;
+          position: absolute;
+          top: 0;
+          visibility: hidden;
+          opacity: 0;
+          -webkit-transition: visibility 0s, opacity 0.2s linear;
+          transition: visibility 0s, opacity 0.2s linear;
+
+          h3 {
+            width: 250px;
+            font-family: PTSansBold;
+            color:  #fffefe;
+            font-size: 20px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 15px;
+          }
+
+          p {
+            width: 250px;
+            color:  #fffefe;
+            font-size: 18px;
+            font-weight: 400;
+            text-align: center;
+            margin: 0 0 20px;
+          }
+
+          p.bold {
+            font-family: PTSansBold;
+            font-weight: 700;
+            margin: 0;
+          }
+        }
+      }
+
+      .students-element:hover {
+
+        span {
+          visibility: visible;
+          opacity: 0.8;
+        }
+      }
+    }
+
+    .btn-transparent {
+      display: block;
+      color: $red;
+      font-size: 20px;
+      padding: 20px;
+      margin: 0 auto;
+      border: 1px solid $red;
+    }
+
+    .btn-transparent:hover {
+      color: $green_hover;
+      border: 1px solid $green_hover;
     }
   }
 }
