@@ -1,0 +1,245 @@
+@media (min-width: 724px) and (max-width: 1140px) {
+
+  /*
+ * HOME -> HEADER
+ */
+
+  header#main-header {
+    height: auto;
+
+    .section-wrapper {
+      width: 100%;
+
+      .header-top-buttons {
+        margin-right: 10px;
+      }
+
+      h1 {
+        font-size: 48px;
+        margin: 55px 20px;
+      }
+
+      h2 {
+        font-size: 20px;
+        margin: 0px 20px 55px;
+      }
+
+      .header-bottom-buttons {
+        width: 100%;
+        margin: 0;
+
+        button {
+          border-radius: 0;
+          display: inline-block;
+          width: 50%;
+          box-sizing: border-box;
+          margin: 0;
+        }
+
+        .btn-green {
+          float: left;
+        }
+
+        .btn-blue {
+          float: right;
+        }
+      }
+
+      .scroll-down {
+        display: none;
+      }
+    }
+  }
+
+  /*
+ * HOME -> SPEAKS
+ */
+
+  #speaks {
+
+    .section-wrapper {
+      width: 100%;
+
+      .speaks {
+        width: 100%;
+        height: auto;
+
+        h1 {
+          width: 100%;
+          display: block;
+          float: left;
+          font-size: 24px;
+          line-height: 80px;
+          text-align: center;
+          margin: 0;
+        }
+
+        > div {
+          width: 600px;
+          display: block;
+          float: none;
+          clear: both;
+          margin: 0 auto;
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  /*
+ * HOME -> SHORT VIDEO
+ */
+
+  #short-video {
+    width: 100%;
+
+    .section-wrapper {
+      width: 100%;
+      height: auto;
+      padding: 60px 0;
+      position: relative;
+
+      .short-video-desc {
+        width: 100%;
+        display: block;
+        float: none;
+        clear: both;
+        margin: 0 20px;
+
+        p {
+          display: block;
+          font-size: 22px;
+          text-align: center;
+          margin-top: 0;
+        }
+
+        .find-out {
+          display: none;
+        }
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        clear: both;
+      }
+
+      .video-block {
+        display: block;
+        margin: 60px auto;
+        float: none;
+      }
+    }
+  }
+
+  /*
+ * HOME -> EVENTS
+ */
+
+  #events {
+    width: 100%;
+    height: auto;
+    padding: 80px 0 70px 0;
+
+    .section-wrapper {
+      width: 100%;
+
+      h1 {
+        line-height: 32px;
+      }
+
+      .events {
+        height: 396px;
+        display: block;
+        margin-top: 70px;
+
+        .event {
+          display: inline-block;
+          border-radius: 5px;
+          border: 1px solid #d7d7d7;
+          box-sizing: border-box;
+          background-color:  white;
+          width: 267px;
+          border-bottom: 3px solid $grey;
+          margin-left: 19px;
+
+          img {
+            display: block;
+            width: 265px;
+            height: 140px;
+            margin: 0 0 20px 0;
+          }
+
+          .muted {
+            display: block;
+            font-family: PTSansRegular;
+            color:  #898989;
+            font-size: 14px;
+            text-align: left;
+            margin: 15px;
+          }
+
+          .event-title {
+            display: block;
+            font-family: PTSansBold;
+            color:  $blue;
+            font-size: 20px;
+            font-weight: 700;
+            text-align: left;
+            margin: 15px 15px 8px;
+          }
+
+          p {
+            margin: 8px 15px 20px;
+          }
+
+          button {
+            border-radius: 3px;
+            background-color:  $blue;
+            font-family: PTSansRegular;
+            color:  #fffefe;
+            font-size: 16px;
+            font-weight: 400;
+            text-align: center;
+            padding: 9px 16px 11px;
+            margin: 0 15px 20px;
+          }
+        }
+
+        .event:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+  /*
+   * HOME -> ABOUT US
+   */
+
+  #about-us {
+    width: 100%;
+    padding: 60px 0;
+
+    .section-wrapper {
+      width: 100%;
+
+      .title {
+        font-size: 34px;
+        margin: 0 auto 30px;
+      }
+
+      .about-us-infographics {
+        width: 724px;
+        height: 978px;
+        background-image: url('../img/home/about-us/infographics_740.jpg');
+      }
+
+      .about-us-mobile {
+        display: none;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,93 @@
+@media (min-width: 724px) and (max-width: 1140px) {
+
+  nav#main-nav {
+
+    .main-nav-wrapper {
+      width: 100%;
+
+      ul.nav-lg {
+        display: none;
+      }
+
+      .nav-md {
+        display: block;
+        width: 142px;
+        height: 60px;
+        background-color:  #2d313d;
+        float: right;
+        cursor: pointer;
+        position: relative;
+
+        .collapse-btn-sm {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          background-image: url('../img/header/lines.png');
+          background-repeat: no-repeat;
+          background-position: center center;
+          margin: 20px 0 20px 36px;
+          float: left;
+        }
+
+        .collapse-btn-sm-active {
+          background-image: url('../img/header/lines-hover.png');
+        }
+
+        .collapse-btn-sm:hover {
+          background-image: url('../img/header/lines-hover.png');
+        }
+
+        .collapse-btn {
+          display: inline-block;
+          line-height: 60px;
+          margin-right: 34px;
+          font-size: 16px;
+          float: right;
+        }
+
+        .collapse-btn-active {
+          color: $green;
+        }
+
+        .menu {
+          display: none;
+          background-color: #2d313d;
+          width: 246px;
+          position: absolute;
+          border-top: 2px solid $green;
+          border-bottom: 3px solid $dark_grey;
+          margin: 0;
+          top: 60px;
+          right: 0;
+          padding: 35px 20px;
+
+          li {
+            display: block;
+            margin: 0;
+            text-align: left;
+            line-height: 45px;
+
+            a {
+              line-height: 45px;
+            }
+          }
+        }
+      }
+
+      .nav-md:hover {
+        .collapse-btn-sm {
+          background-image: url('../img/header/lines-hover.png');
+          -webkit-transition: background-image 0.2s ease-in-out;
+          transition: background-image 0.2s ease-in-out;
+        }
+
+        .collapse-btn {
+          color: $green;
+          -webkit-transition: 0.2s linear;
+          transition: 0.2s linear;
+        }
+      }
+    }
+  }
+
+}

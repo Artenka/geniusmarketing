@@ -5,7 +5,7 @@ function my_scripts() {
 
     wp_enqueue_script('jquery');
 
-    wp_enqueue_script('child menu', get_template_directory_uri() . '/js/childMenu.js');
+    wp_enqueue_script('main script', get_template_directory_uri() . '/js/main.js');
 
     if(is_page()){
 

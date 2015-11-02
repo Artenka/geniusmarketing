@@ -1,7 +1,12 @@
 @import 'fonts';
 @import 'variables';
 @import 'header';
+@import 'header-md';
+@import 'header-sm';
 @import 'home';
+@import 'home-md';
+@import 'home-sm';
+
 
 body {
   width: 100%;
@@ -38,7 +43,9 @@ button {
 .section-wrapper {
   background-color: white;
   width: $lg_width;
+  height: auto;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .title {
@@ -48,4 +55,50 @@ button {
   font-size: 38px;
   font-weight: 400;
   margin: 0 auto;
+}
+
+.text-red {
+  color: $red !important;
+}
+
+.btn-green {
+  background-color:  $green;
+  border-bottom: 3px solid $dark_green;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.btn-green:hover {
+  background-color:  $green_hover;
+  border-bottom: 3px solid $dark_green_hover;
+}
+
+.btn-blue {
+  background-color:  $blue;
+  border-bottom: 3px solid $dark_blue;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.btn-blue:hover {
+  background-color:  $blue_hover;
+  border-bottom: 3px solid $dark_blue_hover;
+}
+
+.btn-transparent {
+  font-family: PTSansRegular;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  padding: 12px 20px;
+  margin: 0 10px;
+  background: none;
+  border: 1px solid white;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.btn-transparent:hover {
+  color: $green_hover;
+  border: 1px solid $green_hover;
 }
