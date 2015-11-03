@@ -318,6 +318,7 @@
     </div>
 </section>
 
+<!-- STUDENTS -->
 <section id="students">
     <div class="section-wrapper">
         <h1>Узнайте Больше о Результатах Наших Учеников</h1>
@@ -368,6 +369,107 @@
         </div>
 
         <button class="btn-transparent">Все Кейсы Учеников</button>
+    </div>
+</section>
+
+<!-- TEAM -->
+<section id="team">
+    <div class="section-wrapper">
+        <h1 class="title">Команда Genius Marketing</h1>
+        <h2>Чтобы Сделать Ваши Результаты Самыми Высокими, Каждый День Над Нашими Проектами(в том числе и внутри тренингов, с Вами) Работает Целая Команда Гениев.</h2>
+
+        <?php echo do_shortcode("[metaslider id=4]"); ?>
+
+        <button class="btn-white">Познакомится со всеми</button>
+    </div>
+</section>
+
+<!-- STUDY -->
+<section id="study">
+    <div class="section-wrapper">
+        <h1 class="title">Новые Обучающие Материалы на Сайте</h1>
+
+        <div class="study-elements">
+            <div class="study-element">
+                <h1>7 SEO-мамонтов. Что больше Не Работает в Поисковой Оптимизации Сайта</h1>
+                <img src="<?php bloginfo(template_url); ?>/img/home/study/img.jpg">
+                <span class="icon-tag"></span><p>Технологии</p><br>
+                <span class="icon-comment"></span><p>17 комментариев</p><br>
+                <button>Читать</button>
+            </div>
+
+            <div class="study-element">
+                <h1>7 SEO-мамонтов. Что больше Не Работает в Поисковой Оптимизации Сайта</h1>
+                <img src="<?php bloginfo(template_url); ?>/img/home/study/img.jpg">
+                <span class="icon-tag"></span><p>Технологии</p><br>
+                <span class="icon-comment"></span><p>17 комментариев</p><br>
+                <button>Читать</button>
+            </div>
+
+            <div class="study-element">
+                <h1>7 SEO-мамонтов. Что больше Не Работает в Поисковой Оптимизации Сайта</h1>
+                <img src="<?php bloginfo(template_url); ?>/img/home/study/img.jpg">
+                <span class="icon-tag"></span><p>Технологии</p><br>
+                <span class="icon-comment"></span><p>17 комментариев</p><br>
+                <button>Читать</button>
+            </div>
+
+            <div class="study-element">
+                <h1>7 SEO-мамонтов. Что больше Не Работает в Поисковой Оптимизации Сайта</h1>
+                <img src="<?php bloginfo(template_url); ?>/img/home/study/img.jpg">
+                <span class="icon-tag"></span><p>Технологии</p><br>
+                <span class="icon-comment"></span><p>17 комментариев</p><br>
+                <button>Читать</button>
+            </div>
+        </div>
+
+        <button class="btn-red">Перейти Ко Всем Материалам</button>
+
+        <div class="tags">
+            <h2>Выбрать раздел:</h2>
+            <p>Аналитика</p>
+            <p>Брендинг</p>
+            <p>Видео</p>
+            <p>Дизайн</p>
+            <p>Запуск Продуктов</p>
+            <p>Ивенты</p>
+            <p>Инсайты</p>
+            <p>Истории Успехы Учеников</p>
+            <p>Клиент-сервис</p>
+            <p>Аналитика</p>
+            <p>Брендинг</p>
+            <p>Видео</p>
+            <p>Дизайн</p>
+            <p>Запуск Продуктов</p>
+            <p>Ивенты</p>
+            <p>Инсайты</p>
+            <p>Истории Успехы Учеников</p>
+            <p>Клиент-сервис</p>
+            <p>Аналитика</p>
+            <p>Брендинг</p>
+            <p>Видео</p>
+            <p>Дизайн</p>
+            <p>Запуск Продуктов</p>
+            <p>Ивенты</p>
+            <p>Инсайты</p>
+            <p>Истории Успехы Учеников</p>
+            <p>Клиент-сервис</p>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER FORM -->
+<section id="footer-form">
+    <div class="section-wrapper">
+        <h1>Как Ваши Знания, Опыт и Навыки</h1>
+        <h2>Могут Приносить Вам Внушительную Прибыль в Интернет?</h2>
+        <p><span class="footer-form-arrow"></span>Откройте лучшие стратегии нашей командной лаборатории и <span>получите доступ к 5-и видеоурокам</span> ПРЯМО СЕЙЧАС!</p>
+
+        <form>
+            <input type="text" placeholder="Ваше Имя">
+            <input type="email" placeholder="Ваш E-mail">
+            <input class="btn-red" type="submit">
+        </form>
     </div>
 </section>
 

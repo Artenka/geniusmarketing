@@ -721,4 +721,117 @@
       }
     }
   }
+
+  /*
+ * HOME -> TEAM
+ */
+
+  #team {
+
+    .section-wrapper {
+      text-align: center;
+
+      h1 {
+        width: 95%;
+        display: block;
+        font-size: 24px;
+        margin: 20px auto;
+      }
+
+      h2 {
+        width: 95%;
+        display: block;
+        font-size: 18px;
+        margin: 20px auto;
+      }
+    }
+  }
+
+
+  /*
+   * HOME -> STUDY
+   */
+
+  #study {
+
+    .section-wrapper {
+
+      .title {
+        font-size: 24px;
+      }
+
+      .study-elements {
+        width: 100%;
+        margin: 10px auto 20px;
+
+        .study-element {
+          display: block;
+          margin: 10px auto;
+        }
+      }
+
+      .tags {
+        width: 95%;
+        margin: 30px auto 10px;
+
+        h2 {
+          display: block;
+          margin: 15px 0;
+        }
+      }
+    }
+  }
+
+  /*
+   * HOME -> FOOTER FORM
+   */
+
+  #footer-form {
+    width: 100%;
+
+    .section-wrapper {
+
+      h1 {
+        display: block;
+        width: 95%;
+        font-size: 24px;
+        margin: 5px auto;
+      }
+
+      h2 {
+        display: block;
+        width: 95%;
+        font-size: 18px;
+        margin: 15px auto;
+      }
+
+      p {
+        display: block;
+        width: 95%;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 30px auto;
+
+        .footer-form-arrow {
+          display: none;
+        }
+      }
+
+      form {
+        width: 95%;
+        margin: 0 auto;
+
+        input {
+          width: 100%;
+          float: left;
+          margin: 10px auto;
+        }
+
+        input[type=submit] {
+          width: 90%;
+          margin: 15px 5%;
+        }
+      }
+    }
+  }
 }

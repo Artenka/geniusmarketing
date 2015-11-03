@@ -429,4 +429,99 @@
       }
     }
   }
+
+/*
+ * HOME -> TEAM
+ */
+
+  #team {
+    background-color:  #2d313d;
+    overflow: hidden;
+
+    .section-wrapper {
+      background-color:  #2d313d;
+      text-align: center;
+
+      h1 {
+        font-size: 34px;
+        margin: 20px 20px 40px;
+      }
+
+      h2 {
+        font-size: 20px;
+        margin: 20px;
+      }
+    }
+  }
+
+
+  /*
+   * HOME -> STUDY
+   */
+
+  #study {
+
+    .section-wrapper {
+
+      .title {
+        font-size: 34px;
+      }
+
+      .study-elements {
+        width: 100%;
+        margin: 40px auto;
+
+        .study-element {
+          display: inline-block;
+          margin: 0 7px;
+        }
+      }
+
+      .tags {
+        width: 95%;
+        margin: 60px auto 20px;
+      }
+    }
+  }
+
+  /*
+   * HOME -> FOOTER FORM
+   */
+
+  #footer-form {
+
+    .section-wrapper {
+
+      h1 {
+        font-size: 34px;
+        margin: 10px 0;
+      }
+
+      h2 {
+        font-size: 22px;
+        margin: 10px 0;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 50px auto 40px;
+
+        .footer-form-arrow {
+          display: none;
+        }
+      }
+
+      form {
+        width: 744px;
+        margin: 0 auto;
+
+        input {
+          width: 228px;
+          float: left;
+          margin: 0 10px;
+        }
+      }
+    }
+  }
 }

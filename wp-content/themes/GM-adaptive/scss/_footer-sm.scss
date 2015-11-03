@@ -1,0 +1,114 @@
+@media (max-width: 724px) {
+
+  footer {
+    padding-top: 40px;
+
+    .section-wrapper {
+
+      h2 {
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+      }
+
+      .footer-elements {
+        width: 95%;
+        margin: 0px;
+        text-align: center;
+        display: block;
+
+        .footer-element {
+          width: 100%;
+          display: block;
+          float: left;
+          clear: both;
+          margin: 15px auto 15px !important;
+
+          ul {
+            width: 100%;
+            margin: 0px;
+
+            li {
+              width: 100%;
+              text-align: center;
+            }
+          }
+        }
+
+        .partnership {
+          width: 100%;
+
+          h1 {
+            width: 95%;
+            margin: 0 auto;
+            text-align: center;
+            display: block;
+            margin-bottom: 15px;
+          }
+
+          > div {
+            width: 200px;
+            height: 80px;
+            margin: 0 auto;
+
+            .footer-logo {
+              width: 50px;
+              margin: 0 10px;
+            }
+
+            p {
+              width: 110px;
+              margin: 14px 10px;
+              font-size: 14px;
+
+              a {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+
+      .contacts {
+        width: 100%;
+        display: block;
+        float: left;
+        clear: both;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 60px;
+
+        h1, p, .footer-social-icons {
+          text-align: center !important;
+        }
+      }
+
+      .inline {
+        display: inline-block;
+      }
+
+      .copyrights {
+        width: 95%;
+        margin: 50px auto;
+        text-align: center;
+      }
+    }
+
+    footer {
+      height: auto;
+
+      .section-wrapper {
+        width: 95%;
+
+        a {
+          display: block;
+          width: 100%;
+          text-align: center;
+          line-height: 28px;
+        }
+      }
+    }
+  }
+
+}
