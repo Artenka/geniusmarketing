@@ -16,30 +16,36 @@
 
 <nav id="main-nav">
     <div class="main-nav-wrapper">
-        <a class="brand" href="#">
+        <a class="brand" href="<?php echo get_home_url(); ?>">
             <span></span>
             <p>Genius Marketing</p>
         </a>
 
         <ul class="nav-lg nav">
+            <!--
             <li><a href="#">Лаборатория Знаний</a></li>
             <li><a href="#">Наша История</a></li>
             <li><a href="#">Наши Тренинги</a></li>
             <li><a href="#">Истории Успеха</a></li>
             <li><a href="#">Магазин</a></li>
             <li><a href="#">Контакты</a></li>
+            -->
+            <?php wp_list_pages('title_li='); ?>
         </ul>
 
         <div class="nav-md nav">
             <div class="collapse-btn-sm"></div>
             <div class="collapse-btn">Меню</div>
             <ul class="menu">
+                <!--
                 <li><a href="#">Лаборатория Знаний</a></li>
                 <li><a href="#">Наша История</a></li>
                 <li><a href="#">Наши Тренинги</a></li>
                 <li><a href="#">Истории Успеха</a></li>
                 <li><a href="#">Магазин</a></li>
                 <li><a href="#">Контакты</a></li>
+                -->
+                <?php wp_list_pages('title_li='); ?>
             </ul>
         </div>
     </div>

@@ -1,20 +1,33 @@
 <?php get_header(); ?>
 
 <!-- MAIN HEADER -->
+
+
 <header id="main-header">
+    <div id="video-background">
+        <video autoplay loop>
+            <source src="<?php bloginfo(template_url); ?>/videos/fon.webm" type="video/webm">
+            <source src="<?php bloginfo(template_url); ?>/videos/fon.mp4" type="video/mp4">
+        </video>
+    </div>
+
     <div class="section-wrapper">
-        <div class="header-top-buttons">
-            <button id="registration" class="btn-transparent">Регистрация</button>
-            <button id="login" class="btn-transparent">Вход в Лабораторию</button>
-        </div>
-        <h1>Сообщество Интернет<br>Предпринимателей №1 в СНГ</h1>
-        <h2>Лучшие Знания и Стратегии по Запуску и Масштабированию Ваших<br>Бизнес-Проектов в Интернет.</h2>
-        <div class="header-bottom-buttons">
-            <button class="btn-green">Начать Онлайн Бизнес с Нуля</button>
-            <button class="btn-blue">Масштабировать Существующий</button>
-        </div>
-        <div class="scroll-down">
-            <span></span>
+        <div class="section-wrapper">
+            <!--
+            <div class="header-top-buttons">
+                <button id="registration" class="btn-transparent">Регистрация</button>
+                <button id="login" class="btn-transparent">Вход в Лабораторию</button>
+            </div>
+            -->
+            <h1>Сообщество Интернет<br>Предпринимателей №1 в СНГ</h1>
+            <h2>Лучшие Знания и Стратегии по Запуску и Масштабированию Ваших<br>Бизнес-Проектов в Интернет.</h2>
+            <div class="header-bottom-buttons">
+                <button class="btn-green">Начать Онлайн Бизнес с Нуля</button>
+                <button class="btn-blue">Масштабировать Существующий</button>
+            </div>
+            <div class="scroll-down">
+                <span></span>
+            </div>
         </div>
     </div>
 </header>
@@ -42,7 +55,9 @@
             <div class="find-out"></div>
         </div>
 
-        <div class="video-block"></div>
+        <div class="video-block">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/B1JpJeS_R7Q" frameborder="0" allowfullscreen></iframe>
+        </div>
 
         <button class="btn-green">Вау, Я Хочу Присоединиться!</button>
     </div>
@@ -434,7 +449,7 @@
             <p>Запуск Продуктов</p>
             <p>Ивенты</p>
             <p>Инсайты</p>
-            <p>Истории Успехы Учеников</p>
+            <p>Истории Успеха Учеников</p>
             <p>Клиент-сервис</p>
             <p>Аналитика</p>
             <p>Брендинг</p>
@@ -443,7 +458,7 @@
             <p>Запуск Продуктов</p>
             <p>Ивенты</p>
             <p>Инсайты</p>
-            <p>Истории Успехы Учеников</p>
+            <p>Истории Успеха Учеников</p>
             <p>Клиент-сервис</p>
             <p>Аналитика</p>
             <p>Брендинг</p>
@@ -452,7 +467,7 @@
             <p>Запуск Продуктов</p>
             <p>Ивенты</p>
             <p>Инсайты</p>
-            <p>Истории Успехы Учеников</p>
+            <p>Истории Успеха Учеников</p>
             <p>Клиент-сервис</p>
         </div>
     </div>
@@ -468,7 +483,7 @@
         <form>
             <input type="text" placeholder="Ваше Имя">
             <input type="email" placeholder="Ваш E-mail">
-            <input class="btn-red" type="submit">
+            <input class="btn-red" type="submit" value="ПОЛУЧИТЬ ДОСТУП">
         </form>
     </div>
 </section>

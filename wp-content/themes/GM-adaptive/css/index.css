@@ -164,7 +164,8 @@ nav#main-nav {
         background-image: url("../img/GM_logo.png");
         background-repeat: no-repeat;
         background-position: center center;
-        position: absolute; }
+        position: absolute;
+        z-index: 5; }
       nav#main-nav .main-nav-wrapper a.brand p {
         font-family: PTSansBold;
         color: white;
@@ -499,7 +500,8 @@ footer {
         margin: 0;
         top: 60px;
         right: 0;
-        padding: 35px 20px; }
+        padding: 35px 20px;
+        z-index: 5; }
         nav#main-nav .main-nav-wrapper .nav-md .menu li {
           display: block;
           margin: 0;
@@ -559,7 +561,8 @@ footer {
         margin: 0;
         top: 60px;
         right: 0;
-        padding: 35px 20px; }
+        padding: 35px 20px;
+        z-index: 5; }
         nav#main-nav .main-nav-wrapper .nav-md .menu li {
           display: block;
           margin: 0;
@@ -581,14 +584,42 @@ footer {
 header#main-header {
   width: 100%;
   height: 640px;
-  background-color: #cecece;
-  overflow: hidden; }
+  background-color: transparent;
+  overflow: hidden;
+  z-index: 3;
+  position: relative; }
+  header#main-header #video-background {
+    background: #333333;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0; }
+    header#main-header #video-background video {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      /* The following will size the video to fit the full container. Not necessary, just nice.*/
+      min-width: 100%;
+      min-height: 100%;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      background-size: cover;
+      opacity: 0.6;
+      z-index: -1; }
   header#main-header .section-wrapper {
-    background-color: #cecece; }
+    background-color: transparent;
+    z-index: 3;
+    position: relative; }
     header#main-header .section-wrapper .header-top-buttons {
       display: block;
-      padding-top: 20px;
+      padding-top: 10px;
       float: right; }
+      header#main-header .section-wrapper .header-top-buttons button {
+        margin: 10px; }
     header#main-header .section-wrapper h1 {
       font-family: CenturyGothicRegular;
       color: #ffffff;
@@ -598,7 +629,7 @@ header#main-header {
       text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3);
       display: block;
       float: left;
-      margin: 60px 0 20px; }
+      margin: 120px 0 20px; }
     header#main-header .section-wrapper h2 {
       display: block;
       float: left;
@@ -643,7 +674,8 @@ header#main-header {
  */
 #speaks {
   background-color: #f3f3f3;
-  overflow: hidden; }
+  overflow: hidden;
+  padding: 0; }
   #speaks .section-wrapper {
     overflow: hidden; }
     #speaks .section-wrapper .speaks {
@@ -1317,6 +1349,9 @@ header#main-header {
       #footer-form .section-wrapper form input {
         float: left;
         margin: 0 12px; }
+      #footer-form .section-wrapper form input[type=submit] {
+        font-family: PTSansBold;
+        font-weight: 700; }
 
 @media (min-width: 724px) and (max-width: 1140px) {
   /*
@@ -1330,7 +1365,7 @@ header#main-header {
         margin-right: 10px; }
       header#main-header .section-wrapper h1 {
         font-size: 48px;
-        margin: 55px 20px; }
+        margin: 100px 20px; }
       header#main-header .section-wrapper h2 {
         font-size: 20px;
         margin: 0px 20px 55px; }
@@ -1419,52 +1454,20 @@ header#main-header {
       #events .section-wrapper h1 {
         line-height: 32px; }
       #events .section-wrapper .events {
-        height: 396px;
+        width: 635px;
+        height: auto;
         display: block;
-        margin-top: 70px; }
+        margin: 70px auto 0;
+        overflow: hidden; }
+        #events .section-wrapper .events .event:nth-child(3) {
+          clear: both; }
         #events .section-wrapper .events .event {
           display: inline-block;
-          border-radius: 5px;
-          border: 1px solid #d7d7d7;
-          box-sizing: border-box;
-          background-color: white;
-          width: 267px;
           border-bottom: 3px solid #cecece;
-          margin-left: 19px; }
-          #events .section-wrapper .events .event img {
-            display: block;
-            width: 265px;
-            height: 140px;
-            margin: 0 0 20px 0; }
-          #events .section-wrapper .events .event .muted {
-            display: block;
-            font-family: PTSansRegular;
-            color: #898989;
-            font-size: 14px;
-            text-align: left;
-            margin: 15px; }
-          #events .section-wrapper .events .event .event-title {
-            display: block;
-            font-family: PTSansBold;
-            color: #3498db;
-            font-size: 20px;
-            font-weight: 700;
-            text-align: left;
-            margin: 15px 15px 8px; }
-          #events .section-wrapper .events .event p {
-            margin: 8px 15px 20px; }
-          #events .section-wrapper .events .event button {
-            border-radius: 3px;
-            background-color: #3498db;
-            font-family: PTSansRegular;
-            color: #fffefe;
-            font-size: 16px;
-            font-weight: 400;
-            text-align: center;
-            padding: 9px 16px 11px;
-            margin: 0 15px 20px; }
+          margin: 15px 25px;
+          float: left; }
         #events .section-wrapper .events .event:first-child {
-          margin-left: 0; }
+          margin-left: 25px; }
 
   /*
    * HOME -> ABOUT US
@@ -1623,11 +1626,15 @@ header#main-header {
   #study .section-wrapper .title {
     font-size: 34px; }
   #study .section-wrapper .study-elements {
-    width: 100%;
-    margin: 40px auto; }
+    width: 635px;
+    margin: 40px auto;
+    overflow: hidden; }
     #study .section-wrapper .study-elements .study-element {
-      display: inline-block;
-      margin: 0 7px; }
+      display: block;
+      margin: 15px 25px;
+      float: left; }
+    #study .section-wrapper .study-elements .study-element:nth-child(3) {
+      clear: both; }
   #study .section-wrapper .tags {
     width: 95%;
     margin: 60px auto 20px; }
@@ -1669,14 +1676,14 @@ header#main-header {
         clear: both;
         text-align: center; }
       header#main-header .section-wrapper h1 {
-        width: 100%;
+        width: 95%;
         font-size: 25px;
-        margin: 55px 15px;
+        margin: 55px auto;
         text-align: center; }
       header#main-header .section-wrapper h2 {
-        width: 100%;
+        width: 95%;
         font-size: 16px;
-        margin: 0px 15px 55px;
+        margin: 0px auto 55px;
         text-align: center; }
       header#main-header .section-wrapper .header-bottom-buttons {
         width: 100%;
@@ -1694,24 +1701,25 @@ header#main-header {
       header#main-header .section-wrapper .scroll-down {
         display: none; }
 
- /*
-* HOME -> SPEAKS
-*/
+  /*
+   * HOME -> SPEAKS
+   */
   #speaks .section-wrapper {
     width: 100%; }
     #speaks .section-wrapper .speaks {
       width: 100%;
       height: auto; }
       #speaks .section-wrapper .speaks h1 {
-        width: 100%;
+        width: 95%;
         display: block;
         float: left;
         font-size: 20px;
-        line-height: 80px;
+        line-height: 30px;
         text-align: center;
-        margin: 0; }
+        margin: 15px auto; }
       #speaks .section-wrapper .speaks > div {
-        width: 400px;
+        width: 95%;
+        max-width: 400px;
         height: auto;
         display: block;
         float: none;
@@ -1741,11 +1749,11 @@ header#main-header {
       padding: 40px 0;
       position: relative; }
       #short-video .section-wrapper .short-video-desc {
-        width: 100%;
+        width: 95%;
         display: block;
         float: none;
         clear: both;
-        margin: 0 20px; }
+        margin: 0 auto; }
         #short-video .section-wrapper .short-video-desc p {
           display: block;
           font-size: 18px;
@@ -1765,6 +1773,8 @@ header#main-header {
         display: block;
         margin: 60px auto;
         float: none; }
+        #short-video .section-wrapper .video-block iframe {
+          width: 100% !important; }
 
  /*
 * HOME -> EVENTS
@@ -2023,7 +2033,7 @@ header#main-header {
   #reasons {
     padding: 0 0 10px; }
     #reasons header {
-      height: 340px;
+      height: auto;
       background-size: cover; }
       #reasons header p {
         width: 95%;
@@ -2031,6 +2041,8 @@ header#main-header {
         margin: 10px auto; }
       #reasons header p:first-child {
         margin-top: 30px; }
+      #reasons header p:last-child {
+        margin-bottom: 50px; }
     #reasons .section-wrapper .reasons-element {
       width: 95%;
       display: block;
@@ -2218,6 +2230,14 @@ header#main-header {
       #footer-form .section-wrapper form input[type=submit] {
         width: 90%;
         margin: 15px 5%; } }
+@media (max-width: 400px) {
+ /*
+* HOME -> SPEAKS
+*/
+  #speaks .section-wrapper .speaks > div a {
+    display: block;
+    margin: 10px auto;
+    float: none !important; } }
 body {
   width: 100%;
   margin: 0;

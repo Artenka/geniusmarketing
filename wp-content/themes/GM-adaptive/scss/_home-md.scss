@@ -16,7 +16,7 @@
 
       h1 {
         font-size: 48px;
-        margin: 55px 20px;
+        margin: 100px 20px;
       }
 
       h2 {
@@ -150,65 +150,25 @@
       }
 
       .events {
-        height: 396px;
+        width: 635px;
+        height: auto;
         display: block;
-        margin-top: 70px;
+        margin: 70px auto 0;
+        overflow: hidden;
+
+        .event:nth-child(3) {
+          clear: both;
+        }
 
         .event {
           display: inline-block;
-          border-radius: 5px;
-          border: 1px solid #d7d7d7;
-          box-sizing: border-box;
-          background-color:  white;
-          width: 267px;
           border-bottom: 3px solid $grey;
-          margin-left: 19px;
-
-          img {
-            display: block;
-            width: 265px;
-            height: 140px;
-            margin: 0 0 20px 0;
-          }
-
-          .muted {
-            display: block;
-            font-family: PTSansRegular;
-            color:  #898989;
-            font-size: 14px;
-            text-align: left;
-            margin: 15px;
-          }
-
-          .event-title {
-            display: block;
-            font-family: PTSansBold;
-            color:  $blue;
-            font-size: 20px;
-            font-weight: 700;
-            text-align: left;
-            margin: 15px 15px 8px;
-          }
-
-          p {
-            margin: 8px 15px 20px;
-          }
-
-          button {
-            border-radius: 3px;
-            background-color:  $blue;
-            font-family: PTSansRegular;
-            color:  #fffefe;
-            font-size: 16px;
-            font-weight: 400;
-            text-align: center;
-            padding: 9px 16px 11px;
-            margin: 0 15px 20px;
-          }
+          margin: 15px 25px;
+          float: left;
         }
 
         .event:first-child {
-          margin-left: 0;
+          margin-left: 25px;
         }
       }
     }
@@ -468,12 +428,18 @@
       }
 
       .study-elements {
-        width: 100%;
+        width: 635px;
         margin: 40px auto;
+        overflow: hidden;
 
         .study-element {
-          display: inline-block;
-          margin: 0 7px;
+          display: block;
+          margin: 15px 25px;
+          float: left;
+        }
+
+        .study-element:nth-child(3) {
+          clear: both;
         }
       }
 
