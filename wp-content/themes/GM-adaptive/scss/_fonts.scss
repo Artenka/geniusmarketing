@@ -28,15 +28,25 @@
   font-style: normal;
   font-weight: normal;
 }
+/* font-family: "CenturyGothicRegular"; */
 @font-face {
   font-family: "CenturyGothicRegular";
   src: url("../fonts/CenturyGothicRegular/GOTHIC.TTF") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
+/* font-family: "CenturyGothicBold"; */
 @font-face {
   font-family: "CenturyGothicBold";
   src: url("../fonts/CenturyGothicBold/GOTHICB.TTF") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "SegoePrint"; */
+@font-face {
+  font-family: "SegoePrint";
+  src: url("../fonts/SegoePrintRegular/SegoePrintRegular.eot");
+  src: url("../fonts/SegoePrintRegular/SegoePrintRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoePrintRegular/SegoePrintRegular.woff") format("woff"), url("../fonts/SegoePrintRegular/SegoePrintRegular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }

@@ -1,0 +1,668 @@
+@media (max-width: 724px) {
+
+  /*
+   * ABOUT US -> HEADER
+   */
+
+  #about-us-header {
+
+    .section-wrapper {
+
+      h1 {
+        width: 95%;
+        font-size: 25px;
+        margin: 160px auto;
+      }
+    }
+  }
+
+  /*
+ * ABOUT US -> WELCOME
+ */
+
+  #about-us-welcome {
+
+    .section-wrapper {
+
+      > h1 {
+        width: 95%;
+        font-size: 28px;
+        margin: 15px auto;
+      }
+
+      > h2 {
+        width: 95%;
+        font-size: 16px;
+        margin: 10px auto;
+      }
+
+      .welcome-slides-block {
+        width: 100%;
+        height: auto;
+        margin: 30px auto 40px;
+        overflow: hidden;
+
+        .welcome-slides {
+          width: 100%;
+          height: auto;
+          float: left;
+
+          .welcome-slides-main {
+            width: 100%;
+            height: auto;
+            float: left;
+          }
+
+          .welcome-slides-thumbnails {
+            width: 100%;
+            height: 124px;
+            float: left;
+            clear: both;
+            text-align: center;
+            overflow: hidden;
+
+            > div {
+              width: 110px;
+              height: 100%;
+
+              img {
+                height: 110px;
+              }
+            }
+          }
+        }
+
+        .welcome-content {
+          width: 100%;
+          height: auto;
+          float: left;
+          clear: both;
+          padding: 40px 20px;
+        }
+      }
+
+      .stories-title {
+        font-size: 24px;
+        margin: 0 auto;
+      }
+
+      .story-hidden-sm {
+        display: none !important;
+      }
+
+      .success-stories {
+        width: 300px;
+        margin: 25px auto 40px;
+
+        .success-story {
+          width: 300px;
+          margin: 10px 0;
+
+          .sphere {
+            height: 42px;
+
+            p {
+              font-size: 13px;
+              padding: 5px 20px;
+            }
+          }
+
+          img {
+            display: block;
+            width: 100%;
+            height: auto;
+          }
+
+          .success-story-content {
+
+            .story-fb {
+              width: 300px;
+            }
+
+            h1 {
+              font-size: 20px;
+            }
+
+            h2 {
+              font-size: 14px;
+            }
+
+            p {
+              min-height: 110px;
+              font-size: 14px;
+            }
+
+            button {
+              font-family: PTSansRegular;
+              font-size: 14px;
+              margin: 10px auto 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+/*
+ * ABOUT US -> REASONS
+ */
+
+  #about-us-reasons {
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+
+    .section-wrapper {
+
+      > h1 {
+        display: block;
+        width: 95%;
+        font-size: 24px;
+        margin: 20px auto 40px;
+        text-align: center;
+      }
+
+      .reasons-subtitle {
+        width: 100%;
+        margin:  40px auto;
+
+        p {
+          font-size: 18px;
+        }
+      }
+
+      .reasons-block {
+        width: 100%;
+        height: auto;
+        margin: 40px auto;
+
+        .reasons-number {
+          margin: 10px auto;
+        }
+
+        > h1 {
+          font-size: 18px;
+          margin: 20px auto;
+        }
+
+        > h3 {
+          width: 95%;
+          font-size: 18px;
+          text-align: center;
+          margin: 30px auto;
+        }
+
+        .teachers-subblock {
+          width: 90%;
+          margin: 30px auto 30px;
+          overflow: hidden;
+
+          > div {
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+
+            p {
+              font-size: 16px;
+            }
+          }
+
+          > img {
+            display: block;
+            max-width: 421px;
+            width: 100%;
+            height: auto;
+            margin: 20px auto 0;
+          }
+        }
+
+        .oles-speaking-subblock {
+          width: 90%;
+          height: auto;
+          margin: 40px auto 20px;
+          position: relative;
+
+          p {
+            display: block;
+            width: 90% !important;
+            max-width: 293px;
+            font-size: 13px;
+            position: static !important;
+            margin: 10px auto;
+          }
+
+          .arrow-top {
+            display: none;
+          }
+
+          .arrow-bottom {
+            display: none;
+          }
+
+          .polaroid-wrapper {
+            width: 293px;
+            height: 263px;
+            position: relative;
+            margin: 10px auto;
+
+            .polaroid-pagan {
+              display: block;
+              width: 173px;
+              height: 201px;
+              position: absolute;
+              left: 0;
+              top: 0;
+            }
+
+            .polaroid-kern {
+              width: 169px;
+              height: 201px;
+              position: absolute;
+              left: 124px;
+              top: 62px;
+            }
+          }
+        }
+
+        .brain-subblock {
+          width: 90%;
+          margin: 20px auto;
+          overflow: hidden;
+
+          > div {
+            display: block;
+            width: 100%;
+            float: left;
+            margin: 10px auto;
+
+            p {
+              display: block;
+              width: 100%;
+              font-size: 16px;
+              margin: 15px auto;
+            }
+
+            button {
+              display: block;
+              margin: 30px auto 20px;
+            }
+          }
+
+          > img {
+            display: block;
+            max-width: 353px;
+            width: 100%;
+            height: auto;
+            margin: 0px auto;
+          }
+        }
+
+        .society-subblock {
+          width: 90%;
+          margin: 30px auto 15px;
+
+          > img {
+            display: block;
+            max-width: 451px;
+            width: 100%;
+            height: auto;
+            margin: 10px auto;
+            float: none;
+          }
+
+          > div {
+            display: block;
+            width: 100%;
+            max-width: 451px;
+            margin: 25px auto;
+
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+
+      .group-photo {
+        width: 301px;
+        height: 217px;
+        position: relative;
+        margin: 35px auto 20px;
+
+        img {
+          position: absolute;
+          top: 0;
+        }
+
+        img:nth-child(1){
+          width: 150px;
+          height: 110px;
+          left: 0;
+        }
+        img:nth-child(2){
+          width: 150px;
+          height: 110px;
+          left: 150px;
+        }
+        img:nth-child(3){
+          width: 150px;
+          height: 110px;
+          left: 0px;
+          top: 110px
+        }
+        img:nth-child(4){
+          width: 150px;
+          height: 110px;
+          left: 150px;
+          top: 110px;
+        }
+      }
+    }
+  }
+
+
+  /*
+   * ABOUT US -> NOT INFOBUSINESS
+   */
+
+  #about-us-not-infobusiness-1 {
+
+    .section-wrapper {
+
+      > h1 {
+        font-size: 24px;
+        margin: 20px auto;
+      }
+
+      > h2 {
+        font-size: 18px;
+        margin: 10px auto;
+      }
+
+      > div {
+        display: block;
+        width: 90%;
+        margin: 40px auto;
+        float: none;
+
+        span {
+          height: 101px;
+          margin: 0 auto 23px;
+        }
+
+        p {
+          width: 100%;
+          max-width: 300px;
+          font-size: 18px;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+
+  #about-us-not-infobusiness-2 {
+    background-position: right center;
+
+    .section-wrapper {
+
+      > div {
+        width: 95%;
+        height: auto;
+        float: none;
+        margin: 40px auto;
+
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  /*
+   * ABOUT US -> STUDY
+   */
+
+  #about-us-study-1 {
+
+    .section-wrapper {
+
+      > h1 {
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      a {
+        font-size: 16px;
+      }
+    }
+  }
+
+  #about-us-study-2 {
+
+    .section-wrapper {
+
+      h1 {
+        font-size: 24px;
+        margin: 20px auto;
+      }
+
+      p {
+        font-size: 18px;
+        margin: 10px auto;
+      }
+
+      .study-or {
+        width: 236px;
+        height: 77px;
+        margin: 40px auto;
+
+        span {
+          width: 77px;
+          height: 77px;
+          margin: 0;
+        }
+
+        > p {
+          display: inline-block;
+          width: auto;
+          line-height: 77px;
+          margin: 0 25px;
+          float: left;
+        }
+      }
+    }
+  }
+
+  #about-us-study-3 {
+
+    .section-wrapper {
+
+      h1 {
+        font-size: 18px;
+      }
+
+      .study-videos {
+        width: 90%;
+        margin: 30px auto 20px;
+
+        > div {
+          display: block;
+          width: 100%;
+          height: 200px;
+          margin: 10px auto;
+          float: none;
+        }
+      }
+    }
+  }
+
+  /*
+   * ABOUT US -> PARTIES
+   */
+
+  #about-us-parties {
+
+    .section-wrapper {
+
+      h1 {
+        font-size: 24px;
+        margin: 20px auto;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+
+      p {
+        font-size: 18px;
+        margin: 40px auto 35px;
+      }
+
+      .parties-videos {
+        width: 95%;
+        height: auto;
+        overflow: hidden;
+        margin: 20px auto;
+
+        > div {
+          display: block;
+          width: 100%;
+          height: 200px;
+          margin: 10px;
+          float: left;
+        }
+      }
+    }
+  }
+
+  /*
+   * ABOUT US -> TV
+   */
+
+  #about-us-tv {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    margin: 0 auto;
+
+    .section-wrapper {
+
+      h1 {
+        font-size: 24px;
+        margin: 20px auto;
+      }
+
+      .tv-videos {
+        width: 95%;
+        margin: 40px auto;
+        overflow: hidden;
+
+        > div {
+          display: block;
+          width: 100%;
+          height: 200px;
+          margin: 20px auto;
+          float: none;
+        }
+
+        > div:first-child {
+          margin-left: auto;
+        }
+
+        > div:last-child {
+          margin-right: auto;
+        }
+      }
+    }
+  }
+
+  /*
+   * ABOUT US -> TEAM
+   */
+
+  #about-us-team {
+
+    .section-wrapper {
+
+      > h1 {
+        font-size: 24px;
+        margin: 20px auto;
+      }
+
+      > h2 {
+        font-size: 16px;
+        margin: 15px auto;
+      }
+
+      .team-preview {
+        width: 95%;
+        height: 160px;
+        margin: 30px auto;
+        overflow: hidden;
+
+        .team-preview-element {
+          width: 160px;
+          height: 160px;
+
+          .team-caption {
+
+            > h1 {
+              font-size: 16px;
+              margin: 38px auto 10px;
+            }
+
+            > h2 {
+              font-size: 12px;
+              margin: 0 auto;
+            }
+
+            > div {
+              width: 105px;
+              margin: 18px auto 0;
+
+              a {
+                width: 22px;
+                height: 22px;
+                margin: 0 4px;
+              }
+            }
+          }
+        }
+      }
+
+      .team-more {
+        max-width: 480px;
+        width: 95%;
+        margin: 0 auto 20px;
+      }
+    }
+  }
+
+  /*
+   * ABOUT US -> ACTION
+   */
+
+  #about-us-action {
+
+    .section-wrapper {
+
+      h1 {
+        font-size: 24px;
+        margin: 15px auto;
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      button {
+        width: 95%;
+        font-size: 22px;
+        margin: 20px auto 35px;
+      }
+    }
+  }
+}

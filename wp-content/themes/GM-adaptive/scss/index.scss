@@ -2,14 +2,20 @@
 @import 'variables';
 @import 'sliders';
 @import 'header';
+@import 'header-md';
+@import 'header-sm';
 @import 'footer';
 @import 'footer-md';
 @import 'footer-sm';
-@import 'header-md';
-@import 'header-sm';
 @import 'home';
 @import 'home-md';
 @import 'home-sm';
+@import 'lab';
+@import 'lab-md';
+@import 'lab-sm';
+@import 'about-us';
+@import 'about-us-md';
+@import 'about-us-sm';
 
 
 body {
@@ -23,6 +29,16 @@ p {
   color: $text_color;
   font-size: 18px;
   font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+a:hover {
+  color: $blue;
 }
 
 h1 {
@@ -162,6 +178,24 @@ section {
   border: 1px solid $green_hover;
 }
 
+.btn-transparent-red {
+  font-family: PTSansRegular;
+  color: $red;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 10px;
+  background: none;
+  border: 1px solid $red;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.btn-transparent-red:hover {
+  color: $red_hover;
+  border: 1px solid $red_hover;
+}
+
 input {
   width: 267px;
   height: 51px;
@@ -182,4 +216,46 @@ input[type=submit] {
   border-radius: 5px;
   color: white;
   text-align: center;
+}
+
+.triangle-grey {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 9px 5.5px 0 5.5px;
+  border-color: #5f5f5f transparent transparent transparent;
+}
+
+.search {
+  border: none;
+  border-radius: 3px;
+  background-color:  #ffffff;
+  width: 262px;
+  height: 34px;
+  background-image: url('../img/search.png');
+  background-repeat: no-repeat;
+  background-position: right 6px top 7px;
+  padding: 0 35px 0 10px;
+}
+
+@media (min-width: 1140px) {
+  .current_page_item {
+    position: relative;
+
+    a {
+      color: $green !important;
+    }
+  }
+
+  .current_page_item:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 12px 0 12px;
+    border-color: $dark_grey transparent transparent transparent;
+    position: absolute;
+    bottom: -15px;
+    left: 40%;
+  }
 }

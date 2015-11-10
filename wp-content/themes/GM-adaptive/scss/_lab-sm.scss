@@ -1,0 +1,157 @@
+@media (max-width: 724px) {
+
+  /*
+ * LAB -> HEADER
+ */
+
+  #lab-header {
+    padding: 30px 0;
+
+    .section-wrapper {
+
+      h1 {
+        width: 95%;
+        margin: 50px auto 30px;
+        font-size: 25px;
+        text-align: center;
+      }
+
+      h2 {
+        display: block;
+        width: 95%;
+        margin: 10px auto 35px;
+        font-size: 16px;
+        text-align: center;
+      }
+    }
+  }
+
+  /*
+   * LAB -> MATERIALS
+   */
+
+  #lab-materials {
+
+    .section-wrapper {
+
+      /*
+      header {
+        width: 95%;
+        height: auto;
+        background-color: white;
+        margin: 0 auto 20px;
+
+        .materials-tags {
+          display: none;
+        }
+
+        .materials-tags-collapse {
+          width: 93px;
+          display: block;
+          height: 46px;
+          border-radius: 3px;
+          border: none;
+          margin: 10px auto;
+
+          p {
+            display: none;
+          }
+        }
+
+        #materials-categories {
+          width: calc(95% - 93px);
+          width: -moz-calc(95% - 93px);
+          width: -webkit-calc(95% - 93px);
+          width: -o-calc(95% - 93px);
+          height: 46px;
+          border-radius: 3px;
+          border: none;
+          margin: 10px 5% 10px 0;
+        }
+
+        #materials-search {
+          width: 100%;
+
+          .search {
+            width: 100%;
+            margin: 0px;
+            border: 1px solid #d9d9d9;
+            border-radius: 3px;
+            margin: 10px auto;
+          }
+        }
+
+        .star {
+          display: none;
+        }
+      }
+      */
+
+      .study-elements {
+        width: 300px;
+        margin: 20px auto;
+
+        .study-element {
+          width: 290px;
+          margin: 12px 5px;
+          padding: 0;
+
+          a {
+            font-size: 16px;
+            padding: 5px 15px;
+            margin: 0;
+          }
+
+          img {
+            display: block;
+            width: 270px;
+            height: 155px;
+            margin: 10px auto;
+          }
+
+          > div {
+            padding: 0 0;
+
+            p {
+              font-size: 14px;
+              margin: 3px 10px;
+              padding: 0;
+            }
+          }
+
+          .tag-field {
+            float: left;
+          }
+
+          .view-field {
+            float: right;
+          }
+
+          span {
+            margin: 3px 10px 3px 10px;
+          }
+
+          p {
+            font-size: 16px;
+            margin: 10px;
+          }
+
+          > button {
+            margin: 10px 10px 20px;
+          }
+        }
+      }
+
+      .materials-more {
+        width: 95%;
+        margin: 10px auto;
+        font-size: 16px;
+      }
+
+      .materials-more:hover {
+        background-color:  #d9d9d9;
+      }
+    }
+  }
+
+}

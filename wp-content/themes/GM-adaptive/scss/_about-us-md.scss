@@ -1,0 +1,585 @@
+@media (min-width: 724px) and (max-width: 1140px) {
+
+/*
+ * ABOUT US -> HEADER
+ */
+
+  #about-us-header {
+
+    .section-wrapper {
+
+      h1 {
+        width: 95%;
+        font-size: 44px;
+        margin: 130px auto 90px;
+      }
+    }
+  }
+
+  /*
+   * ABOUT US -> WELCOME
+   */
+
+  #about-us-welcome {
+
+    .section-wrapper {
+
+      > h1 {
+        width: 95%;
+        font-size: 34px;
+        margin: 15px auto;
+      }
+
+      > h2 {
+        width: 95%;
+        font-size: 20px;
+        margin: 10px auto;
+      }
+
+      .welcome-slides-block {
+        width: 680px;
+        height: auto;
+        margin: 40px auto 60px;
+        overflow: hidden;
+
+        .welcome-slides {
+          width: 100%;
+          height: 530px;
+          float: left;
+
+          .welcome-slides-main {
+            width: 100%;
+            height: 406px;
+            float: left;
+          }
+
+          .welcome-slides-thumbnails {
+            width: 100%;
+            height: auto;
+            float: left;
+            clear: both;
+            text-align: center;
+          }
+        }
+
+        .welcome-content {
+          width: 100%;
+          height: auto;
+          float: left;
+          clear: both;
+          padding: 20px 40px;
+        }
+      }
+
+      .stories-title {
+        font-size: 34px;
+        margin: 0 auto;
+      }
+
+      .story-hidden-lg {
+        display: block !important;
+      }
+
+      .success-stories {
+        width: 744px;
+        margin: 40px auto 30px;
+
+        .success-story {
+          margin: 20px 5px;
+        }
+      }
+    }
+  }
+
+  /*
+   * ABOUT US -> REASONS
+   */
+
+  #about-us-reasons {
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+
+    .section-wrapper {
+
+      > h1 {
+        display: block;
+        width: 95%;
+        font-size: 34px;
+        margin: 40px auto;
+        text-align: center;
+      }
+
+      .reasons-subtitle {
+        width: 460px;
+        margin:  40px auto;
+
+        p {
+          font-size: 26px;
+        }
+      }
+
+      .reasons-block {
+        width: 100%;
+        height: auto;
+        margin: 40px auto;
+
+        .reasons-number {
+          margin: 10px auto;
+        }
+
+        > h1 {
+          font-size: 24px;
+          margin: 20px auto;
+        }
+
+        > h3 {
+          width: 95%;
+          font-size: 22px;
+          text-align: center;
+          margin: 30px auto;
+        }
+
+        .teachers-subblock {
+          width: 610px;
+          margin: 65px auto 50px;
+          overflow: hidden;
+
+          > div {
+            display: block;
+            width: 610px;
+            margin: 0 auto;
+          }
+
+          > img {
+            display: block;
+            width: 421px;
+            height: 340px;
+            margin: 20px auto 0;
+          }
+        }
+
+        .oles-speaking-subblock {
+          width: 700px;
+          height: 450px;
+          margin: 40px auto 20px;
+          position: relative;
+
+          p {
+            font-size: 12px;
+          }
+
+          .arrow-top {
+            width: 95px;
+            height: 24px;
+            left: 264px;
+            top: -10px;
+          }
+
+          .arrow-bottom {
+            width: 80px;
+            height: 66px;
+            left: 490px;
+            top: 285px;
+          }
+
+          .polaroid-wrapper {
+
+            img {
+              position: absolute;
+            }
+
+            .polaroid-pagan {
+              width: 278px;
+              height: 326px;
+              left: 0;
+              top: 0;
+            }
+
+            .polaroid-kern {
+              width: 270px;
+              height: 324px;
+              left: 202px;
+              top: 118px;
+            }
+          }
+
+          .text-pagan {
+            width: 265px;
+            left: 340px;
+            top: 5px;
+          }
+
+          .text-kern {
+            width: 200px;
+            left: 500px;
+            top: 132px;
+          }
+        }
+
+        .brain-subblock {
+          width: 610px;
+          margin: 20px auto;
+          overflow: hidden;
+
+          > div {
+            display: block;
+            width: 100%;
+            float: left;
+            margin: 10px auto;
+
+            p {
+              display: block;
+              width: 601px;
+              font-size: 18px;
+              margin: 15px auto;
+            }
+
+            button {
+              display: block;
+              margin: 35px 0 25px;
+            }
+          }
+
+          > img {
+            display: block;
+            width: 353px;
+            height: 353px;
+            margin: 0px auto;
+          }
+        }
+
+        .society-subblock {
+          width: 610px;
+          margin: 35px auto 20px;
+
+          > img {
+            display: block;
+            width: 451px;
+            height: 584px;
+            margin: 10px auto;
+            float: none;
+          }
+
+          > div {
+            display: block;
+            width: 100%;
+            margin: 50px auto;
+          }
+        }
+      }
+
+      .group-photo {
+        width: 725px;
+        height: 132px;
+        position: relative;
+        margin: 50px auto 20px;
+
+        img {
+          position: absolute;
+          top: 0;
+        }
+
+        img:nth-child(1){
+          width: 182px;
+          height: 125px;
+          left: 0;
+        }
+        img:nth-child(2){
+          width: 185px;
+          height: 129px;
+          left: 176px;
+        }
+        img:nth-child(3){
+          width: 186px;
+          height: 132px;
+          left: 362px;
+        }
+        img:nth-child(4){
+          width: 185px;
+          height: 130px;
+          left: 540px;
+        }
+      }
+    }
+  }
+
+
+  /*
+   * ABOUT US -> NOT INFOBUSINESS
+   */
+
+  #about-us-not-infobusiness-1 {
+
+    .section-wrapper {
+
+      > h1 {
+        font-size: 34px;
+        margin: 20px auto;
+      }
+
+      > h2 {
+        font-size: 20px;
+        margin: 10px auto;
+      }
+
+      > div {
+        display: inline-block;
+        width: 33%;
+        margin: 55px 0 12px;
+        float: left;
+
+        span {
+          height: 101px;
+          margin: 0 auto 23px;
+        }
+
+        p {
+          font-size: 20px;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+
+  #about-us-not-infobusiness-2 {
+    background-position: right center;
+
+    .section-wrapper {
+
+      > div {
+        width: 80%;
+        height: auto;
+        float: none;
+        margin: 40px auto;
+
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  /*
+   * ABOUT US -> STUDY
+   */
+
+  #about-us-study-1 {
+
+    .section-wrapper {
+
+      > h1 {
+        font-size: 34px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+
+      a {
+        font-size: 20px;
+      }
+    }
+  }
+
+  #about-us-study-2 {
+
+    .section-wrapper {
+
+      h1 {
+        font-size: 34px;
+        margin: 20px auto;
+      }
+
+      p {
+        font-size: 20px;
+        margin: 10px auto;
+      }
+    }
+  }
+
+  #about-us-study-3 {
+
+    .section-wrapper {
+
+      h1 {
+        font-size: 24px;
+      }
+
+      .study-videos {
+        width: 100%;
+        margin: 35px auto 20px;
+
+        > div {
+          display: block;
+          width: 600px;
+          height: 340px;
+          margin: 20px auto;
+          float: none;
+        }
+      }
+    }
+  }
+
+  /*
+   * ABOUT US -> PARTIES
+   */
+
+  #about-us-parties {
+
+    .section-wrapper {
+
+      h1 {
+        font-size: 34px;
+        margin: 20px auto;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      p {
+        margin: 50px auto 35px;
+      }
+
+      .parties-videos {
+        width: 745px;
+        height: auto;
+        overflow: hidden;
+        margin: 20px auto;
+
+        > div {
+          display: inline-block;
+          width: 352px;
+          height: 200px;
+          margin: 10px;
+          float: left;
+        }
+      }
+    }
+  }
+
+  /*
+   * ABOUT US -> TV
+   */
+
+  #about-us-tv {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    margin: 0 auto;
+
+    .section-wrapper {
+
+      h1 {
+        font-size: 34px;
+        margin: 20px auto;
+      }
+
+      .tv-videos {
+        width: 100%;
+        margin: 40px auto;
+        overflow: hidden;
+
+        > div {
+          display: block;
+          width: 600px;
+          height: 340px;
+          margin: 15px auto;
+          float: none;
+        }
+
+        > div:first-child {
+          margin-left: auto;
+        }
+
+        > div:last-child {
+          margin-right: auto;
+        }
+      }
+    }
+  }
+
+  /*
+   * ABOUT US -> TEAM
+   */
+
+  #about-us-team {
+
+    .section-wrapper {
+
+      > h1 {
+        font-size: 34px;
+        margin: 20px auto;
+      }
+
+      > h2 {
+        font-size: 20px;
+        margin: 15px auto;
+      }
+
+      .team-preview {
+        width: 725px;
+        height: 145px;
+        margin: 40px auto;
+
+        .team-preview-element {
+          width: 145px;
+          height: 145px;
+
+          .team-caption {
+
+            > h1 {
+              font-size: 16px;
+              margin: 38px auto 10px;
+            }
+
+            > h2 {
+              font-size: 12px;
+              margin: 0 auto;
+            }
+
+            > div {
+              width: 105px;
+              margin: 18px auto 0;
+
+              a {
+                width: 22px;
+                height: 22px;
+                margin: 0 4px;
+              }
+            }
+          }
+        }
+      }
+
+      .team-more {
+        margin: 0 auto 20px;
+      }
+    }
+  }
+
+  /*
+   * ABOUT US -> ACTION
+   */
+
+  #about-us-action {
+
+    .section-wrapper {
+
+      h1 {
+        font-size: 34px;
+        margin: 15px auto;
+      }
+
+      p {
+        font-size: 20px;
+      }
+
+      button {
+        margin: 20px auto 35px;
+      }
+    }
+  }
+
+}

@@ -427,26 +427,26 @@
         font-size: 34px;
       }
 
-      .study-elements {
-        width: 635px;
-        margin: 40px auto;
-        overflow: hidden;
-
-        .study-element {
-          display: block;
-          margin: 15px 25px;
-          float: left;
-        }
-
-        .study-element:nth-child(3) {
-          clear: both;
-        }
-      }
-
       .tags {
         width: 95%;
         margin: 60px auto 20px;
       }
+    }
+  }
+
+  .study-elements {
+    width: 635px;
+    margin: 40px auto;
+    overflow: hidden;
+
+    .study-element {
+      display: block;
+      margin: 15px 25px;
+      float: left;
+    }
+
+    .study-element:nth-child(3) {
+      clear: both;
     }
   }
 

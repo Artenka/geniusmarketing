@@ -1,0 +1,78 @@
+@media (min-width: 724px) and (max-width: 1140px) {
+
+/*
+ * LAB -> HEADER
+ */
+
+  #lab-header {
+
+    .section-wrapper {
+
+      h1 {
+        width: 95%;
+        margin: 50px auto 30px;
+      }
+
+      h2 {
+        display: block;
+        width: 95%;
+        margin: 10px auto 45px;
+      }
+    }
+  }
+
+/*
+ * LAB -> MATERIALS
+ */
+
+  #lab-materials {
+
+    .section-wrapper {
+
+      /*
+      header {
+        width: 95%;
+        height: 46px;
+        margin: 0 auto;
+
+        .materials-tags {
+          display: none;
+        }
+
+        .materials-tags-collapse {
+          display: block;
+        }
+
+        #materials-categories {
+          width: auto;
+        }
+
+        #materials-search {
+
+          .search {
+            margin: 6px 10px;
+          }
+        }
+
+        .star {
+          display: none;
+        }
+      }
+      */
+
+      .study-elements {
+        width: 752px;
+      }
+
+      .materials-more {
+        width: 95%;
+        margin: 10px auto;
+      }
+
+      .materials-more:hover {
+        background-color:  #d9d9d9;
+      }
+    }
+  }
+
+}

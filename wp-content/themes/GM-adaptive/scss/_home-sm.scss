@@ -769,16 +769,6 @@
         font-size: 24px;
       }
 
-      .study-elements {
-        width: 100%;
-        margin: 10px auto 20px;
-
-        .study-element {
-          display: block;
-          margin: 10px auto;
-        }
-      }
-
       .tags {
         width: 95%;
         margin: 30px auto 10px;
@@ -788,6 +778,16 @@
           margin: 15px 0;
         }
       }
+    }
+  }
+
+  .study-elements {
+    width: 100%;
+    margin: 10px auto 20px;
+
+    .study-element {
+      display: block;
+      margin: 20px auto;
     }
   }
 
