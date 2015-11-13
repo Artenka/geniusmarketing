@@ -1,0 +1,174 @@
+@media (max-width: 724px) {
+
+  /*
+ * SUCCESS -> HEADER
+ */
+
+  #success-header {
+    position: relative;
+
+    .section-wrapper {
+
+      h1 {
+        width: 95%;
+        font-size: 25px;
+        margin: 90px auto 30px;
+      }
+
+      p {
+        width: 95%;
+        font-size: 16px;
+        margin: 15px auto 175px;
+
+        b {
+          font-size: 16px;
+        }
+      }
+
+      .success-header-graph {
+        width: 100%;
+        height: 150px;
+        background-color:  #181c27;
+        background-image: url('../img/success/header-graph-sm.png');
+        margin: 0 auto;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+
+        p {
+          display: none !important;
+        }
+      }
+    }
+  }
+
+  /*
+   * SUCCESS -> MAIN
+   */
+
+  #success-stories-main {
+    background-color: $light_grey;
+
+    .section-wrapper {
+
+      > h1 {
+        font-size: 24px;
+        margin: 20px auto;
+      }
+
+      .top-students {
+        width: 300px;
+        margin: 25px auto 40px;
+
+        .success-story {
+          width: 300px;
+          margin: 10px 0;
+
+          .sphere {
+            height: 42px;
+
+            p {
+              font-size: 13px;
+              padding: 5px 20px;
+            }
+          }
+
+          img {
+            display: block;
+            width: 100%;
+            height: auto;
+          }
+
+          .success-story-content {
+
+            .success-story-socials {
+              width: 300px;
+            }
+
+            h1 {
+              font-size: 20px;
+            }
+
+            h2 {
+              font-size: 14px;
+            }
+
+            p {
+              min-height: auto;
+              font-size: 14px;
+            }
+
+            button {
+              font-family: PTSansRegular;
+              font-size: 14px;
+              margin: 10px auto 25px;
+            }
+          }
+        }
+      }
+
+      .popular-spheres {
+        width: 285px;
+        margin: 0 auto;
+
+        .success-story {
+          width: 265px;
+          margin: 15px 10px;
+
+          .sphere {
+
+            p {
+              padding: 5px;
+            }
+          }
+
+          img {
+            height: 132px;
+          }
+
+          .success-story-content {
+            width: 100%;
+            height: auto;
+            text-align: center;
+            box-sizing: border-box;
+            padding: 10px 20px;
+            position: relative;
+
+            .success-story-socials {
+              width: 265px;
+            }
+
+            h1 {
+              font-size: 22px;
+              line-height: 20px;
+              margin: 15px auto;
+            }
+
+            h2 {
+              font-size: 16px;
+              line-height: 20px;
+              margin: 15px auto;
+            }
+
+            p {
+              min-height: auto;
+              height: auto;
+              font-size: 16px;
+              line-height: 20px;
+              margin: 10px auto;
+            }
+          }
+        }
+      }
+
+      .more {
+        margin: 10px auto 40px;
+      }
+
+      // .locked-trainings are in _home.scss -> but
+    }
+  }
+
+  .grid-item { width: 246px; }
+
+}

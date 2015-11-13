@@ -6,6 +6,7 @@ function my_scripts() {
     wp_enqueue_script('jquery');
 
     wp_enqueue_script('main script', get_template_directory_uri() . '/js/main.js');
+    wp_enqueue_script('masonry min', get_template_directory_uri() . '/js/masonry.pkgd.min.js');
 
     if(is_page()){
 

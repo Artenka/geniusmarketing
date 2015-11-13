@@ -307,20 +307,20 @@
 
         <p><b>Но Вы можете их получить.</b> При чем, мы обновляем их каждый месяц и они, "условно" бесплатны. Вот несколько из тех тренировок, которые доступны в "закрытом" разделе нашего сайта.</p>
 
-        <div class="but-elements">
-            <div class="but-element">
+        <div class="locked-trainings">
+            <div class="locked-trainings-element">
                 <span class="locked"></span>
                 <img src="<?php bloginfo(template_url); ?>/img/home/but/img.jpg">
                 <p><b>копирайтинг</b> - слова, которые приносят деньги</p>
             </div>
 
-            <div class="but-element">
+            <div class="locked-trainings-element">
                 <span class="locked"></span>
                 <img src="<?php bloginfo(template_url); ?>/img/home/but/img.jpg">
                 <p><b>копирайтинг</b> - слова, которые приносят деньги</p>
             </div>
 
-            <div class="but-element">
+            <div class="locked-trainings-element">
                 <span class="locked"></span>
                 <img src="<?php bloginfo(template_url); ?>/img/home/but/img.jpg">
                 <p><b>копирайтинг</b> - слова, которые приносят деньги</p>

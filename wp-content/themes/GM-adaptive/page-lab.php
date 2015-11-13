@@ -123,7 +123,7 @@ Template Name: Лаборатория Знаний
             </div>
         </div>
 
-        <p class="materials-more">загрузить больше постов</p>
+        <p class="more">загрузить больше постов</p>
 
         <div class="tags">
             <h2>Выбрать раздел:</h2>

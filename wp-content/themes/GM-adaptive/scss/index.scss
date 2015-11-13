@@ -16,6 +16,12 @@
 @import 'about-us';
 @import 'about-us-md';
 @import 'about-us-sm';
+@import 'trainings';
+@import 'trainings-md';
+@import 'trainings-sm';
+@import 'success';
+@import 'success-md';
+@import 'success-sm';
 
 
 body {
@@ -258,4 +264,55 @@ input[type=submit] {
     bottom: -15px;
     left: 40%;
   }
+}
+
+.hidden-md {
+  display: block;
+}
+
+@media (max-width: 1140px) and (min-width: 724px) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+.more {
+  display: block;
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  background-color:  #ebebeb;
+  height: 56px;
+  line-height: 56px;
+  font-family: PTSansBold;
+  color:  #959595;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px auto;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  clear: both;
+}
+
+.more:hover {
+  background-color:  #d9d9d9;
+}
+
+@media (max-width: 1140px) {
+
+  .more {
+    width: 95%;
+    margin: 10px auto;
+  }
+
+}
+
+@media (max-width: 724px) {
+
+  .more {
+    font-size: 16px;
+  }
+
 }

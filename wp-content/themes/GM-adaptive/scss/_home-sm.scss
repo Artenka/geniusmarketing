@@ -644,32 +644,32 @@
           font-weight: 700;
         }
       }
+    }
+  }
 
-      .but-elements {
+  .locked-trainings {
+    width: 100%;
+    margin: 0 auto;
+
+    .locked-trainings-element {
+      display: block;
+      width: 280px;
+      margin: 30px auto;
+
+      img {
         width: 100%;
-        margin: 0 auto;
+        height: 165px;
+      }
 
-        .but-element {
-          display: block;
-          width: 280px;
-          margin: 30px auto;
+      .locked {
+        height: 165px;
+        background-image: url('../img/home/but/lock-hover.png');
+      }
 
-          img {
-            width: 100%;
-            height: 165px;
-          }
-
-          .locked {
-            height: 165px;
-            background-image: url('../img/home/but/lock-hover.png');
-          }
-
-          p {
-            font-size: 18px;
-            padding: 0 16px;
-            margin: 15px 0;
-          }
-        }
+      p {
+        font-size: 18px;
+        padding: 0 16px;
+        margin: 15px 0;
       }
     }
   }

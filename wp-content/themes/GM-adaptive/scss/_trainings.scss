@@ -1,0 +1,281 @@
+/*
+ * TRAININGS -> HEADER
+ */
+#trainings-header {
+  padding: 60px 0 0;
+  background-image: url('../img/trainings/header-bg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .section-wrapper {
+
+    h1 {
+      display: block;
+      width: 950px;
+      font-family: PTSansBold;
+      color:  #ffffff;
+      font-size: 64px;
+      font-weight: 700;
+      text-align: center;
+      text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
+      margin: 10px auto 15px;
+    }
+
+    p {
+      display: block;
+      width: 930px;
+      font-family: PTSansRegular;
+      color:  #ffffff;
+      font-size: 24px;
+      font-weight: 400;
+      text-align: center;
+      text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
+      margin: 15px auto;
+    }
+
+    > div {
+      background-color: $red;
+      width: 261px;
+      height: 40px;
+      box-sizing: border-box;
+      margin: 40px auto 40px;
+      position: relative;
+
+      h2 {
+        font-family: PTSansBold;
+        color:  #ffffff;
+        font-size: 24px;
+        line-height: 40px;
+        font-weight: 700;
+        text-align: center;
+        margin: 0;
+      }
+    }
+
+    > div:after {
+      content: '';
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 15px 15px 0 15px;
+      border-color: #fd4e3f transparent transparent transparent;
+      position: absolute;
+      left: 116px;
+      top: 40px;
+    }
+  }
+}
+
+/*
+ * TRAININGS
+ */
+#trainings-main {
+  width: 100%;
+  background-color: #fafafa;
+
+  .section-wrapper {
+
+    .top-trainings {
+      width: 945px;
+      margin: 15px auto 40px;
+
+      .top-trainings-element {
+        width: 100%;
+        height: 420px;
+        margin: 52px auto;
+        border: 1px solid #e1e1e1;
+        border-bottom: 3px solid #e1e1e1;
+        overflow: hidden;
+
+        .top-trainings-image {
+          display: inline-block;
+          width: 257px;
+          height: 100%;
+          position: relative;
+          float: left;
+          -webkit-transition: 0.2s linear;
+          transition: 0.2s linear;
+
+          > img {
+            width: 100%;
+            height: 100%;
+          }
+
+          .top-trainings-caption {
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 100px;
+            left: 0;
+
+            .trainings-icon {
+              display: block;
+              width: 58px;
+              height: 58px;
+              border-radius: 50%;
+              border: 1px solid white;
+              background-repeat: no-repeat;
+              background-position: center center;
+              margin: 0 auto;
+            }
+
+            > div {
+              background-color:  #ffffff;
+              width: 177px;
+              height: 36px;
+              display: block;
+              margin: 15px auto;
+
+              p {
+                font-family: PTSansBold;
+                color:  #242424;
+                font-size: 20px;
+                line-height: 36px;
+                font-weight: 700;
+                text-align: center;
+                margin: 0;
+              }
+            }
+
+            .rocket-icon {
+              background-image: url('../img/trainings/icons/rocket.png');
+            }
+          }
+        }
+
+        .top-trainings-image:hover {
+          opacity: 0.8;
+        }
+
+        .top-trainings-preview {
+          display: inline-block;
+          width: 688px;
+          height: 100%;
+          box-sizing: border-box;
+          float: right;
+          padding: 30px;
+
+          h1 {
+            font-family: PTSansBold;
+            color:  #242424;
+            font-size: 30px;
+            font-weight: 700;
+            text-align: left;
+            margin: 0 0 20px;
+          }
+
+          p {
+            font-family: PTSansRegular;
+            color:  #242424;
+            font-size: 18px;
+            font-weight: 400;
+            text-align: left;
+          }
+
+          button {
+            font-family: PTSansBold;
+            color:  #fffefe;
+            font-size: 20px;
+            font-weight: 700;
+            text-align: center;
+            margin: 15px 0 0;
+          }
+        }
+      }
+
+      .top-trainings-element:first-child {
+        margin-top: 0;
+      }
+
+      .top-trainings-element:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .bottom-trainings {
+      width: 861px;
+      height: 396px;
+      display: block;
+      margin: 70px auto 57px;
+      overflow: hidden;
+
+      .bottom-trainings-element {
+        display: inline-block;
+        border-radius: 5px;
+        border: 1px solid #d7d7d7;
+        box-sizing: border-box;
+        background-color:  white;
+        width: 267px;
+        border-bottom: 3px solid $grey;
+        margin: 0 10px;
+        float: left;
+
+        img {
+          display: block;
+          width: 265px;
+          height: 140px;
+          margin: 0 0 20px 0;
+        }
+
+        .muted {
+          display: block;
+          font-family: PTSansRegular;
+          color:  #898989;
+          font-size: 14px;
+          text-align: left;
+          margin: 15px;
+        }
+
+        a {
+          display: block;
+          font-family: PTSansBold;
+          color:  $text_color;
+          font-size: 20px;
+          font-weight: 700;
+          text-align: left;
+          margin: 15px 15px 8px;
+          -webkit-transition: 0.2s linear;
+          transition: 0.2s linear;
+        }
+
+        a:hover {
+          color: $blue;
+        }
+
+        p {
+          font-size: 16px;
+          margin: 8px 15px 20px;
+        }
+
+        button {
+          font-family: PTSansBold;
+          color:  #fffefe;
+          font-size: 16px;
+          font-weight: 700;
+          text-align: center;
+          padding: 10px 15px;
+          margin: 0 15px 20px;
+        }
+      }
+
+      .event:first-child {
+        margin-left: 0;
+      }
+    }
+
+    .trainings-more {
+      display: block;
+      font-family: PTSansBold;
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 700;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .trainings-more-sm {
+      display: none;
+    }
+  }
+}

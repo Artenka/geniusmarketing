@@ -1,0 +1,221 @@
+/*
+ * SUCCESS -> HEADER
+ */
+
+#success-header {
+  width: 100%;
+  background-image: url('../img/success/success-header-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+
+  .section-wrapper {
+
+    h1 {
+      display: block;
+      width: 930px;
+      font-family: CenturyGothicBold;
+      color: #ffffff;
+      font-size: 48px;
+      font-weight: 700;
+      text-align: center;
+      text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
+      margin: 110px auto 20px;
+    }
+
+    p {
+      display: block;
+      width: 780px;
+      font-family: CenturyGothicBold;
+      color:  #ffffff;
+      font-size: 20px;
+      font-weight: 700;
+      text-align: center;
+      text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
+      margin: 15px auto;
+
+      b {
+        font-size: 28px;
+      }
+    }
+
+    .success-header-graph {
+      width: 900px;
+      height: 280px;
+      background-image: url('../img/success/header-graph.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      margin: 20px auto;
+      position: relative;
+
+      p {
+        position: absolute;
+        margin: 0;
+      }
+
+      .year {
+        width: 60px;
+        font-family: PTSansRegular;
+        color:  #ffffff;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+      }
+
+      .year-2012 {
+        left: 50px;
+        bottom: 24px;
+      }
+      .year-2013 {
+        left: 240px;
+        bottom: 24px;
+      }
+      .year-2014 {
+        left: 425px;
+        bottom: 24px;
+      }
+      .year-2015 {
+        left: 615px;
+        bottom: 24px;
+      }
+      .year-2016 {
+        left: 800px;
+        bottom: 24px;
+      }
+
+      .number {
+        font-family: PTSansBold;
+        color:  #ffffff;
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+
+        span {
+          font-family: PTSansRegular;
+          color:  #ffffff;
+          font-size: 18px;
+          font-weight: 400;
+          text-align: center;
+        }
+      }
+
+      .number-2012 {
+        width: 15px;
+        left: 68px;
+        bottom: 65px;
+      }
+      .number-2013 {
+        width: 80px;
+        left: 230px;
+        bottom: 73px;
+      }
+      .number-2014 {
+        width: 110px;
+        left: 404px;
+        bottom: 104px;
+      }
+      .number-2016 {
+        width: 150px;
+        font-size: 34px;
+        left: 748px;
+        bottom: 270px;
+
+        span {
+          font-size: 22px;
+        }
+      }
+
+      .title-2012 {
+        width: 70px;
+        font-family: PTSansBold;
+        color:  #ffffff;
+        font-size: 22px;
+        font-weight: 700;
+        text-align: center;
+        left: 35px;
+        bottom: 100px;
+      }
+    }
+  }
+}
+
+/*
+ * SUCCESS -> MAIN
+ */
+
+#success-stories-main {
+  background-color: $light_grey;
+
+  .section-wrapper {
+
+    > h1 {
+      display: block;
+      width: 95%;
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    // .success-stories are in _about-us.scss -> welcome
+
+    .popular-spheres {
+
+      .success-story {
+        width: 265px;
+        margin: 15px 10px;
+
+        .sphere {
+
+          p {
+            padding: 5px;
+          }
+        }
+
+        img {
+          height: 132px;
+        }
+
+        .success-story-content {
+          width: 100%;
+          height: auto;
+          text-align: center;
+          box-sizing: border-box;
+          padding: 10px 20px;
+          position: relative;
+
+          .success-story-socials {
+            width: 265px;
+          }
+
+          h1 {
+            font-size: 22px;
+            line-height: 20px;
+            margin: 15px auto;
+          }
+
+          h2 {
+            font-size: 16px;
+            line-height: 20px;
+            margin: 15px auto;
+          }
+
+          p {
+            min-height: auto;
+            height: auto;
+            font-size: 16px;
+            line-height: 20px;
+            margin: 10px auto;
+          }
+        }
+      }
+    }
+
+    .more {
+      margin: 10px auto 80px;
+    }
+
+    // .locked-trainings are in _home.scss -> but
+  }
+}
+
+.grid-item { width: 246px; }

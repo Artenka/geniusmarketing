@@ -261,30 +261,6 @@
         background: $red;
       }
     }
-
-    .materials-more {
-      display: block;
-      width: 100%;
-      border-radius: 3px;
-      border: none;
-      background-color:  #ebebeb;
-      height: 56px;
-      line-height: 56px;
-      font-family: PTSansBold;
-      color:  #959595;
-      font-size: 20px;
-      font-weight: 700;
-      text-align: center;
-      margin: 10px auto;
-      text-transform: uppercase;
-      cursor: pointer;
-      -webkit-transition: 0.2s linear;
-      transition: 0.2s linear;
-    }
-
-    .materials-more:hover {
-      background-color:  #d9d9d9;
-    }
   }
 }
 

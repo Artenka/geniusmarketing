@@ -1,0 +1,97 @@
+@media (max-width: 724px) {
+
+  /*
+   * TRAININGS -> HEADER
+   */
+  #trainings-header {
+    padding: 60px 0 0;
+    background-position: center center;
+    background-size: cover;
+
+    .section-wrapper {
+
+      h1 {
+        width: 95%;
+        font-size: 35px;
+        margin: 60px auto 15px;
+      }
+
+      p {
+        width: 95%;
+        font-family: PTSansRegular;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 15px auto;
+      }
+
+      > div {
+        margin: 40px auto 35px;
+      }
+    }
+  }
+
+  /*
+   * TRAININGS
+   */
+  #trainings-main {
+
+    .section-wrapper {
+
+      .top-trainings {
+        display: none;
+      }
+
+      .bottom-trainings {
+        width: 287px;
+        height: auto;
+        margin: 10px auto 40px;
+
+        .bottom-trainings-element {
+          display: block;
+          margin: 15px 10px;
+        }
+
+        .bottom-trainings-element:first-child {
+          margin-top: 0;
+        }
+
+        .bottom-trainings-element:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      .trainings-more {
+        display: none;
+      }
+
+      .trainings-more-sm {
+        display: block;
+        width: 95%;
+        margin: 0 auto 20px;
+        overflow: hidden;
+
+        p {
+          width: 100%;
+          font-family: PTSansBold;
+          color:  #242424;
+          font-size: 22px;
+          font-weight: 700;
+          text-align: center;
+        }
+
+        button {
+          display: block;
+          width: 185px;
+          box-sizing: border-box;
+          font-family: PTSansBold;
+          color:  #ffffff;
+          font-size: 22px;
+          font-weight: 700;
+          text-align: center;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+
+}

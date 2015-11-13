@@ -65,7 +65,9 @@ Template Name: О Проекте
                 </div>
                 <img  src="<?php bloginfo(template_url); ?>/img/about-us/welcome/img-spodin.jpg">
                 <div class="success-story-content">
-                    <a href="#" class="story-fb"></a>
+                    <div class="success-story-socials">
+                        <a href="#" class="story-fb"></a>
+                    </div>
                     <h1>Андрей Сподин</h1>
                     <h2>$12000 за первые 25 дней</h2>
                     <p>"Любой человек, как с опытом в бизнесе, так и новичок, сможет создать уникальный проект в интернете"</p>
@@ -79,7 +81,9 @@ Template Name: О Проекте
                 </div>
                 <img  src="<?php bloginfo(template_url); ?>/img/about-us/welcome/img-kuryachie.jpg">
                 <div class="success-story-content">
-                    <a href="#" class="story-fb"></a>
+                    <div class="success-story-socials">
+                        <a href="#" class="story-fb"></a>
+                    </div>
                     <h1>Братья Курячие</h1>
                     <h2>$5000 за 4 месяца после коучинга</h2>
                     <p>"Качественное улучшение Вашей жизни начинается с инвестирования времени и денег в Ваше мышление"</p>
@@ -94,7 +98,9 @@ Template Name: О Проекте
                 </div>
                 <img  src="<?php bloginfo(template_url); ?>/img/about-us/welcome/img-kuryachie.jpg">
                 <div class="success-story-content">
-                    <a href="#" class="story-fb"></a>
+                    <div class="success-story-socials">
+                        <a href="#" class="story-fb"></a>
+                    </div>
                     <h1>Братья Курячие</h1>
                     <h2>$5000 за 4 месяца после коучинга</h2>
                     <p>"Качественное улучшение Вашей жизни начинается с инвестирования времени и денег в Ваше мышление"</p>
@@ -108,7 +114,9 @@ Template Name: О Проекте
                 </div>
                 <img  src="<?php bloginfo(template_url); ?>/img/about-us/welcome/img-kovpak.jpg">
                 <div class="success-story-content">
-                    <a href="#" class="story-fb"></a>
+                    <div class="success-story-socials">
+                        <a href="#" class="story-fb"></a>
+                    </div>
                     <h1>Дмитрий Ковпак</h1>
                     <h2>50 000$/мес</h2>
                     <p>"Если ты еще не делаешь бизнес через интернет, то что ты делаешь?"</p>
