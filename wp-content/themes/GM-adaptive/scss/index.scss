@@ -22,6 +22,9 @@
 @import 'success';
 @import 'success-md';
 @import 'success-sm';
+@import 'vacancies';
+@import 'vacancies-md';
+@import 'vacancies-sm';
 
 
 body {
@@ -315,4 +318,12 @@ input[type=submit] {
     font-size: 16px;
   }
 
+}
+
+.socials-fixed {
+  width: 42px;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 45%;
 }

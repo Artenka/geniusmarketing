@@ -1,0 +1,365 @@
+@media (min-width: 724px) and (max-width: 1140px) {
+
+  /*
+ * VACANCIES -> HEADER
+ */
+
+  #vacancies-header {
+
+    .section-wrapper {
+
+      h1 {
+        width: 95%;
+        margin: 140px auto;
+      }
+    }
+  }
+
+  /*
+   * VACANCIES -> WHY WE
+   */
+
+  #vacancies-why-we {
+
+    .section-wrapper {
+
+      h1 {
+        width: 95%;
+        font-size: 34px;
+        margin: 20px auto;
+      }
+
+      .vacancies-why-we-content {
+        width: 740px;
+        margin: 40px auto 30px;
+        overflow: hidden;
+
+        img {
+          width: 400px;
+          height: 290px;
+          margin: 0;
+        }
+
+        > div {
+          width: 310px;
+          margin: 0;
+
+          p {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+
+  /*
+   * VACANCIES -> WELCOME
+   */
+
+  #vacancies-welcome {
+    padding-bottom: 25px;
+
+    .section-wrapper{
+
+      h1 {
+        font-size: 38px;
+        margin: 0 auto 25px;
+      }
+
+      > div {
+        margin: 0 auto;
+      }
+    }
+  }
+
+  /*
+   * VACANCIES -> WHAT WE DO
+   */
+
+  #vacancies-what-we-do {
+
+    .section-wrapper {
+
+      > h1 {
+        font-size: 34px;
+        margin: 10px auto 15px;
+      }
+
+      .what-we-do-content {
+        width: 720px;
+        margin: 20px auto;
+
+        p {
+          margin: 15px auto;
+        }
+      }
+
+      .what-we-do-images {
+        width: 740px;
+        height: auto;
+        margin: 36px auto 20px;
+        overflow: hidden;
+
+        img {
+          width: 350px;
+          height: 233px;
+          margin: 0 10px;
+          float: left;
+        }
+      }
+    }
+  }
+
+  /*
+   * VACANCIES -> REASONS
+   */
+
+  #vacancies-reasons {
+
+    .section-wrapper {
+
+      > h1 {
+        font-size: 34px;
+      }
+
+      .reasons {
+        width: 724px;
+        margin: 20px auto;
+        overflow: hidden;
+
+        .reasons-element {
+          width: 100%;
+          margin: 0 auto;
+
+          .reasons-element-block {
+
+            .reasons-element-image {
+              width: 250px;
+
+              img {
+                width: auto;
+                height: 100%;
+                float: left;
+                margin-left: -20%;
+              }
+            }
+
+            .reasons-element-content {
+              width: 412px;
+              padding: 20px 30px;
+
+              h2 {
+                font-size: 24px;
+                margin: 0 0 15px;
+              }
+
+              p {
+                font-size: 18px;
+                line-height: 22px;
+                margin: 10px 0;
+              }
+            }
+          }
+        }
+
+        .reasons-element:nth-child(7) {
+
+          .reasons-element-block {
+
+            .reasons-element-content {
+              padding: 10px 30px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /*
+   * VACANCIES -> COMMENT
+   */
+
+  #vacancies-comment {
+    background-color:  #2d313d;
+
+    .section-wrapper {
+
+      > h1 {
+        font-size: 34px;
+        margin: 20px auto 25px;
+      }
+
+      .comment-block {
+        width: 680px;
+        margin: 25px auto 10px;
+
+        .comment-image {
+          display: block;
+          width: 400px;
+          float: none;
+          margin: 0 auto 26px;
+
+          img {
+            display: inline-block;
+            width: 120px;
+            height: 120px;
+            margin: 0 23px 0 0;
+          }
+
+          > p {
+            display: inline-block;
+            text-align: left;
+            margin: 35px 0;
+            float: right;
+          }
+        }
+
+        .comment-content {
+          width: 100%;
+          float: none;
+          margin: 0;
+
+          p {
+            text-align: none;
+          }
+
+          p:first-child {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+
+  /*
+   * VACANCIES -> WORK
+   */
+
+  #vacancies-work {
+    background-color: #fafafa;
+
+    .section-wrapper {
+
+      > h1 {
+        font-size: 34px;
+        margin: 20px auto;
+      }
+
+      .work-block {
+        width: 724px;
+        margin: 40px auto 0;
+        overflow: hidden;
+
+        .work-image {
+          width: 291px;
+          height: 207px;
+        }
+
+        .work-content {
+          width: 410px;
+
+          p {
+            font-size: 18px;
+            margin: 10px 0;
+          }
+        }
+      }
+    }
+  }
+
+  /*
+   * VACANCIES -> REQUIRED
+   */
+
+  #vacancies-required {
+    background-color: white;
+
+    .section-wrapper {
+
+      > h1 {
+        font-size: 34px;
+        margin: 20px auto;
+      }
+
+      .required-block {
+        width: 720px;
+        margin: 0 auto;
+
+        .required-block-element {
+          width: 100%;
+          padding: 50px 0;
+
+          .required-content {
+            width: 430px;
+          }
+        }
+
+        .required-block-element:last-child {
+          padding-bottom: 15px;
+        }
+      }
+    }
+  }
+
+  /*
+   * VACANCIES -> MESSAGE
+   */
+
+  #vacancies-message {
+    background-color: #fafafa;
+
+    .section-wrapper {
+
+      h1 {
+        font-size: 34px;
+        margin: 30px auto 35px;
+      }
+
+      p {
+        width: 700px;
+        margin: 15px auto;
+      }
+
+      #vacancies-form {
+        width: 475px;
+        margin: 46px auto 26px;
+        padding: 40px 25px;
+
+        input, select, textarea {
+          width: 425px;
+          padding: 15px 19px;
+          margin: 10px 0;
+          float: left;
+        }
+
+        #vac-city {
+          width: 425px;
+        }
+
+        #vac-age {
+          width: 425px;
+        }
+
+        #vac-position {
+          width: 425px;
+          padding: 0 17px;
+          text-align: center;
+        }
+
+        textarea {
+          width: 425px;
+          box-sizing: border-box;
+          margin: 10px auto 38px;
+        }
+
+        input[type=submit] {
+          display: block;
+          width: 290px;
+          margin: 0 auto;
+          float: none;
+        }
+      }
+    }
+  }
+
+}

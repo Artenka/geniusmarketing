@@ -1,0 +1,665 @@
+/*
+ * VACANCIES -> HEADER
+ */
+
+#vacancies-header {
+  background-image: url('../img/vacancies/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  .section-wrapper {
+
+    h1 {
+      display: block;
+      width: 820px;
+      font-family: CenturyGothicBold;
+      color:  #ffffff;
+      font-size: 39px;
+      font-weight: 700;
+      text-align: center;
+      text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
+      margin: 170px auto 150px;
+    }
+  }
+}
+
+/*
+ * VACANCIES -> WHY WE
+ */
+
+#vacancies-why-we {
+  background-color: #ffffff;
+
+  .section-wrapper {
+
+    h1 {
+      display: block;
+      width: 1060px;
+      font-family: PTSansBold;
+      font-size: 38px;
+      font-weight: 700;
+      text-align: center;
+      margin: 20px auto;
+    }
+
+    .vacancies-why-we-content {
+      width: 100%;
+      margin: 50px auto 30px;
+      overflow: hidden;
+
+      img {
+        display: block;
+        width: 520px;
+        height: 308px;
+        float: left;
+        margin: 0 70px 0 0;
+      }
+
+      > div {
+        width: 500px;
+        float: right;
+        margin: 50px 0 0;
+
+        p {
+          font-family: PTSansRegular;
+          font-size: 20px;
+          font-weight: 400;
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+/*
+ * VACANCIES -> WELCOME
+ */
+
+#vacancies-welcome {
+  background-image: url('../img/vacancies/welcome/welcome-bg.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  .section-wrapper{
+
+    h1 {
+      display: block;
+      width: 95%;
+      font-family: PTSansBold;
+      color:  #2d313d;
+      font-size: 40px;
+      font-weight: 700;
+      text-align: center;
+      margin: 25px auto;
+    }
+
+    > div {
+      width: 64px;
+      height: 100px;
+      background-image: url('../img/vacancies/welcome/welcome-icon.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      margin: 0 auto 20px;
+    }
+  }
+}
+
+/*
+ * VACANCIES -> WHAT WE DO
+ */
+
+#vacancies-what-we-do {
+  background-color: #ffffff;
+
+  .section-wrapper {
+
+    > h1 {
+      display: block;
+      width: 95%;
+      font-family: PTSansBold;
+      font-size: 38px;
+      font-weight: 700;
+      text-align: center;
+      margin: 10px auto 15px;
+    }
+
+    .what-we-do-content {
+      width: 968px;
+      margin: 20px auto;
+
+      p {
+        display: block;
+        width: 100%;
+        font-family: PTSansRegular;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+        margin: 15px auto;
+      }
+    }
+
+    .what-we-do-images {
+      width: 975px;
+      height: auto;
+      margin: 56px auto 25px;
+
+      img {
+        display: inline-block;
+        width: 460px;
+        height: 306px;
+        margin: 0 12px;
+      }
+    }
+  }
+}
+
+/*
+ * VACANCIES -> REASONS
+ */
+
+#vacancies-reasons {
+  background-color: #fafafa;
+
+  .section-wrapper {
+
+    > h1 {
+      display: block;
+      width: 95%;
+      font-family: PTSansBold;
+      font-size: 38px;
+      font-weight: 700;
+      text-align: center;
+      margin: 20px auto;
+    }
+
+    .reasons {
+      width: 946px;
+      margin: 38px auto 20px;
+      overflow: hidden;
+
+      .reasons-element {
+        width: 100%;
+        margin: 0 auto;
+
+        .reasons-number {
+          width: 50px;
+          height: 130px;
+          margin: 0 auto;
+
+          p {
+            border-radius: 50%;
+            background-color:  $green;
+            width: 50px;
+            height: 50px;
+            font-family: PTSansBold;
+            color:  #ffffff;
+            font-size: 25px;
+            line-height: 50px;
+            font-weight: 600;
+            text-align: center;
+            margin: 0;
+          }
+
+          .number-circles {
+            width: 6px;
+            height: 40px;
+            margin: 0 auto;
+
+            .number-circle {
+              content: "";
+              width: 6px;
+              height: 6px;
+              background-color: #dbdbdb;
+              border: none;
+              border-radius: 50%;
+              margin: 7px 0;
+            }
+          }
+        }
+
+        .number-first {
+          height: 90px !important;
+        }
+
+        .reasons-element-block {
+          width: 100%;
+          height: auto;
+          background-color: white;
+          border-top: 20px solid #dbdbdb;
+          border-bottom: 20px solid #dbdbdb;
+          overflow: hidden;
+          margin: 7px auto;
+
+          .reasons-element-image {
+            width: 354px;
+            height: auto;
+            float: left;
+            overflow: hidden;
+
+            img {
+              width: 100%;
+              height: 100%;
+              float: left;
+            }
+          }
+
+          .reasons-element-content {
+            width: 512px;
+            height: auto;
+            float: right;
+            padding: 20px 40px;
+
+            h2 {
+              font-family: PTSansBold;
+              color:  $green;
+              font-size: 26px;
+              font-weight: 700;
+              text-align: left;
+              margin: 15px 0;
+            }
+
+            p {
+              font-family: PTSansRegular;
+              font-size: 20px;
+              line-height: 24px;
+              font-weight: 400;
+              text-align: left;
+              margin: 10px 0;
+            }
+
+            ul {
+              padding: 0;
+              margin: 15px 0;
+              list-style: none;
+
+              li {
+
+                p {
+                  margin: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+ * VACANCIES -> COMMENT
+ */
+
+#vacancies-comment {
+  background-color:  #2d313d;
+
+  .section-wrapper {
+
+    > h1 {
+      display: block;
+      width: 95%;
+      font-family: PTSansBold;
+      color:  #ffffff;
+      font-size: 38px;
+      font-weight: 700;
+      text-align: center;
+      margin: 20px auto;
+    }
+
+    .comment-block {
+      width: 960px;
+      margin: 70px auto 35px;
+      overflow: hidden;
+
+      .comment-image {
+        width: 140px;
+        float: left;
+        margin: 0;
+
+        img {
+          width: 140px;
+          height: 140px;
+          border: 3px solid #a8a8a8;
+          border-radius: 50%;
+          box-sizing: border-box;
+          padding: 0;
+          margin: 0 0 20px;
+        }
+
+        > p {
+          font-family: PTSansItalic;
+          color:  #b1b1b1;
+          font-size: 18px;/* Приближение из-за подстановки шрифтов */
+          font-weight: 400;
+          text-align: center;
+
+          b {
+            font-family: PTSansBold;
+            font-weight: 700;
+          }
+        }
+      }
+
+      .comment-content {
+        width: 740px;
+        float: right;
+        margin: 0;
+
+        p {
+          font-family: PTSansRegular;
+          color:  #fafafa;
+          font-size: 18px;
+          font-weight: 400;
+          text-align: left;
+        }
+
+        p:first-child {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}
+
+/*
+ * VACANCIES -> WORK
+ */
+
+#vacancies-work {
+  background-color: #fafafa;
+
+  .section-wrapper {
+
+    > h1 {
+      display: block;
+      width: 95%;
+      font-family: PTSansBold;
+      font-size: 38px;
+      font-weight: 700;
+      text-align: center;
+      margin: 10px auto;
+    }
+
+    .work-block {
+      width: 960px;
+      margin: 37px auto 0;
+      overflow: hidden;
+
+      .work-image {
+        width: 344px;
+        height: 245px;
+        float: left;
+
+        img {
+          width: 100%;
+          height: 100%;
+          float: left;
+        }
+      }
+
+      .work-content {
+        width: 560px;
+        height: auto;
+        float: right;
+
+        p {
+          font-family: PTSansRegular;
+          font-size: 20px;
+          font-weight: 400;
+          text-align: left;
+        }
+
+        p:first-child {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}
+
+/*
+ * VACANCIES -> REQUIRED
+ */
+
+#vacancies-required {
+  background-color: white;
+
+  .section-wrapper {
+
+    > h1 {
+      display: block;
+      width: 95%;
+      font-family: PTSansBold;
+      font-size: 38px;
+      font-weight: 700;
+      text-align: center;
+      margin: 20px auto;
+    }
+
+    .required-block {
+      width: 960px;
+      margin: 40px auto 0;
+      overflow: hidden;
+
+      .required-block-element {
+        width: 100%;
+        overflow: hidden;
+        padding: 50px 0;
+        margin: 0;
+        border-bottom: 2px solid #cacaca;
+
+        .required-image {
+          width: 257px;
+          height: auto;
+          float: left;
+
+          > img {
+            width: 257px;
+            height: 160px;
+          }
+
+          > button {
+            display: block;
+            width: 257px;
+            height: 40px;
+            background-color: white;
+            border: 2px solid $blue;
+            border-radius: initial;
+            font-family: PTSansBold;
+            color:  $blue;
+            font-size: 20px;
+            line-height: 36px;
+            font-weight: 700;
+            text-align: center;
+            padding: 0;
+            margin: 20px auto;
+            -webkit-transition: 0.2s linear;
+            transition: 0.2s linear;
+          }
+
+          > button:hover {
+            color: white;
+            background-color: $blue;
+          }
+        }
+
+        .required-content {
+          width: 650px;
+          height: auto;
+          float: right;
+
+          h2 {
+            font-family: PTSansBold;
+            font-size: 24px;
+            font-weight: 700;
+            text-align: left;
+            margin: 0 0 20px;
+          }
+
+          h3 {
+            font-family: PTSansBold;
+            color: $text_color;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: left;
+            margin: 15px 0;
+          }
+
+          p {
+            font-family: PTSansRegular;
+            font-size: 18px;
+            font-weight: 400;
+            text-align: left;
+            margin: 10px 0;
+          }
+
+          ul {
+            padding: 0;
+            margin: 15px 0;
+            list-style: none;
+
+            li {
+              font-family: PTSansRegular;
+              color: $text_color;
+              font-size: 18px;
+              font-weight: 400;
+              text-align: left;
+              margin: 5px 0;
+            }
+
+            li:before {
+              content: "- ";
+            }
+          }
+
+          .required-hidden {
+            display: none;
+          }
+
+          .required-show {
+            font-family: PTSansBold;
+            color:  $blue;
+            font-size: 20px;
+            font-weight: 700;
+            text-align: left;
+            cursor: pointer;
+            margin: 28px 0 0;
+          }
+        }
+      }
+
+      .required-block-element:last-child {
+        border: none;
+        padding-bottom: 15px;
+      }
+    }
+  }
+}
+
+/*
+ * VACANCIES -> MESSAGE
+ */
+
+#vacancies-message {
+  background-color: #fafafa;
+
+  .section-wrapper {
+
+    h1 {
+      display: block;
+      width: 95%;
+      font-family: PTSansBold;
+      font-size: 38px;
+      font-weight: 700;
+      text-align: center;
+      margin: 10px auto 45px;
+    }
+
+    p {
+      display: block;
+      width: 870px;
+      font-family: PTSansRegular;
+      font-size: 20px;
+      font-weight: 400;
+      text-align: center;
+      margin: 15px auto;
+    }
+
+    #vacancies-form {
+      background-color:  #4b5677;
+      width: 940px;
+      min-height: 410px;
+      border-radius: 5px;
+      border: none;
+      overflow: hidden;
+      box-sizing: border-box;
+      margin: 46px auto 26px;
+      padding: 30px 20px;
+
+      input, select, textarea {
+        display: inline-block;
+        background-color:  #ffffff;
+        width: 280px;
+        height: 48px;
+        font-family: PTSansRegular;
+        color:  #464545;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        border-radius: initial;
+        padding: 15px 19px;
+        margin: 10px;
+        float: left;
+      }
+
+      select {
+        padding: 0 17px;
+        line-height: 48px;
+      }
+
+      #vac-city {
+        width: 260px;
+      }
+
+      #vac-age {
+        width: 210px;
+      }
+
+      #vac-position {
+        width: 370px;
+      }
+
+      textarea {
+        width: 840px;
+        min-height: 128px;
+        resize: vertical;
+        text-align: left;
+      }
+
+      input[type=submit] {
+        width: 216px;
+        height: 48px;
+        font-family: PTSansBold;
+        color:  #ffffff;
+        font-size: 22px;
+        line-height: 48px;
+        font-weight: 700;
+        text-align: center;
+        text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+        background-color:  $green;
+        border-radius: 5px;
+        border-bottom: 3px solid $dark_green;
+        -webkit-transition: 0.2s linear;
+        transition: 0.2s linear;
+        padding: 0;
+        margin-top: 28px;
+      }
+
+      input[type=submit]:hover {
+        background-color:  $green_hover;
+        border-bottom: 3px solid $dark_green_hover;
+      }
+    }
+  }
+}

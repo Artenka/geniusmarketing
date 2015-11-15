@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* font-family: "PTSansRegular"; */
 @font-face {
   font-family: "PTSansRegular";
@@ -4845,6 +4846,970 @@ header#main-header {
 
   .grid-item {
     width: 246px; } }
+/*
+ * VACANCIES -> HEADER
+ */
+#vacancies-header {
+  background-image: url("../img/vacancies/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center; }
+  #vacancies-header .section-wrapper h1 {
+    display: block;
+    width: 820px;
+    font-family: CenturyGothicBold;
+    color: #ffffff;
+    font-size: 39px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
+    margin: 170px auto 150px; }
+
+/*
+ * VACANCIES -> WHY WE
+ */
+#vacancies-why-we {
+  background-color: #ffffff; }
+  #vacancies-why-we .section-wrapper h1 {
+    display: block;
+    width: 1060px;
+    font-family: PTSansBold;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px auto; }
+  #vacancies-why-we .section-wrapper .vacancies-why-we-content {
+    width: 100%;
+    margin: 50px auto 30px;
+    overflow: hidden; }
+    #vacancies-why-we .section-wrapper .vacancies-why-we-content img {
+      display: block;
+      width: 520px;
+      height: 308px;
+      float: left;
+      margin: 0 70px 0 0; }
+    #vacancies-why-we .section-wrapper .vacancies-why-we-content > div {
+      width: 500px;
+      float: right;
+      margin: 50px 0 0; }
+      #vacancies-why-we .section-wrapper .vacancies-why-we-content > div p {
+        font-family: PTSansRegular;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left; }
+
+/*
+ * VACANCIES -> WELCOME
+ */
+#vacancies-welcome {
+  background-image: url("../img/vacancies/welcome/welcome-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+  #vacancies-welcome .section-wrapper h1 {
+    display: block;
+    width: 95%;
+    font-family: PTSansBold;
+    color: #2d313d;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin: 25px auto; }
+  #vacancies-welcome .section-wrapper > div {
+    width: 64px;
+    height: 100px;
+    background-image: url("../img/vacancies/welcome/welcome-icon.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto 20px; }
+
+/*
+ * VACANCIES -> WHAT WE DO
+ */
+#vacancies-what-we-do {
+  background-color: #ffffff; }
+  #vacancies-what-we-do .section-wrapper > h1 {
+    display: block;
+    width: 95%;
+    font-family: PTSansBold;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px auto 15px; }
+  #vacancies-what-we-do .section-wrapper .what-we-do-content {
+    width: 968px;
+    margin: 20px auto; }
+    #vacancies-what-we-do .section-wrapper .what-we-do-content p {
+      display: block;
+      width: 100%;
+      font-family: PTSansRegular;
+      font-size: 20px;
+      font-weight: 400;
+      text-align: left;
+      margin: 15px auto; }
+  #vacancies-what-we-do .section-wrapper .what-we-do-images {
+    width: 975px;
+    height: auto;
+    margin: 56px auto 25px; }
+    #vacancies-what-we-do .section-wrapper .what-we-do-images img {
+      display: inline-block;
+      width: 460px;
+      height: 306px;
+      margin: 0 12px; }
+
+/*
+ * VACANCIES -> REASONS
+ */
+#vacancies-reasons {
+  background-color: #fafafa; }
+  #vacancies-reasons .section-wrapper > h1 {
+    display: block;
+    width: 95%;
+    font-family: PTSansBold;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px auto; }
+  #vacancies-reasons .section-wrapper .reasons {
+    width: 946px;
+    margin: 38px auto 20px;
+    overflow: hidden; }
+    #vacancies-reasons .section-wrapper .reasons .reasons-element {
+      width: 100%;
+      margin: 0 auto; }
+      #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-number {
+        width: 50px;
+        height: 130px;
+        margin: 0 auto; }
+        #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-number p {
+          border-radius: 50%;
+          background-color: #2ecc71;
+          width: 50px;
+          height: 50px;
+          font-family: PTSansBold;
+          color: #ffffff;
+          font-size: 25px;
+          line-height: 50px;
+          font-weight: 600;
+          text-align: center;
+          margin: 0; }
+        #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-number .number-circles {
+          width: 6px;
+          height: 40px;
+          margin: 0 auto; }
+          #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-number .number-circles .number-circle {
+            content: "";
+            width: 6px;
+            height: 6px;
+            background-color: #dbdbdb;
+            border: none;
+            border-radius: 50%;
+            margin: 7px 0; }
+      #vacancies-reasons .section-wrapper .reasons .reasons-element .number-first {
+        height: 90px !important; }
+      #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-element-block {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border-top: 20px solid #dbdbdb;
+        border-bottom: 20px solid #dbdbdb;
+        overflow: hidden;
+        margin: 7px auto; }
+        #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-element-block .reasons-element-image {
+          width: 354px;
+          height: auto;
+          float: left;
+          overflow: hidden; }
+          #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-element-block .reasons-element-image img {
+            width: 100%;
+            height: 100%;
+            float: left; }
+        #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-element-block .reasons-element-content {
+          width: 512px;
+          height: auto;
+          float: right;
+          padding: 20px 40px; }
+          #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-element-block .reasons-element-content h2 {
+            font-family: PTSansBold;
+            color: #2ecc71;
+            font-size: 26px;
+            font-weight: 700;
+            text-align: left;
+            margin: 15px 0; }
+          #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-element-block .reasons-element-content p {
+            font-family: PTSansRegular;
+            font-size: 20px;
+            line-height: 24px;
+            font-weight: 400;
+            text-align: left;
+            margin: 10px 0; }
+          #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-element-block .reasons-element-content ul {
+            padding: 0;
+            margin: 15px 0;
+            list-style: none; }
+            #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-element-block .reasons-element-content ul li p {
+              margin: 0; }
+
+/*
+ * VACANCIES -> COMMENT
+ */
+#vacancies-comment {
+  background-color: #2d313d; }
+  #vacancies-comment .section-wrapper > h1 {
+    display: block;
+    width: 95%;
+    font-family: PTSansBold;
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px auto; }
+  #vacancies-comment .section-wrapper .comment-block {
+    width: 960px;
+    margin: 70px auto 35px;
+    overflow: hidden; }
+    #vacancies-comment .section-wrapper .comment-block .comment-image {
+      width: 140px;
+      float: left;
+      margin: 0; }
+      #vacancies-comment .section-wrapper .comment-block .comment-image img {
+        width: 140px;
+        height: 140px;
+        border: 3px solid #a8a8a8;
+        border-radius: 50%;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0 0 20px; }
+      #vacancies-comment .section-wrapper .comment-block .comment-image > p {
+        font-family: PTSansItalic;
+        color: #b1b1b1;
+        font-size: 18px;
+        /* ╨Я╤А╨╕╨▒╨╗╨╕╨╢╨╡╨╜╨╕╨╡ ╨╕╨╖-╨╖╨░ ╨┐╨╛╨┤╤Б╤В╨░╨╜╨╛╨▓╨║╨╕ ╤И╤А╨╕╤Д╤В╨╛╨▓ */
+        font-weight: 400;
+        text-align: center; }
+        #vacancies-comment .section-wrapper .comment-block .comment-image > p b {
+          font-family: PTSansBold;
+          font-weight: 700; }
+    #vacancies-comment .section-wrapper .comment-block .comment-content {
+      width: 740px;
+      float: right;
+      margin: 0; }
+      #vacancies-comment .section-wrapper .comment-block .comment-content p {
+        font-family: PTSansRegular;
+        color: #fafafa;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left; }
+      #vacancies-comment .section-wrapper .comment-block .comment-content p:first-child {
+        margin-top: 0; }
+
+/*
+ * VACANCIES -> WORK
+ */
+#vacancies-work {
+  background-color: #fafafa; }
+  #vacancies-work .section-wrapper > h1 {
+    display: block;
+    width: 95%;
+    font-family: PTSansBold;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px auto; }
+  #vacancies-work .section-wrapper .work-block {
+    width: 960px;
+    margin: 37px auto 0;
+    overflow: hidden; }
+    #vacancies-work .section-wrapper .work-block .work-image {
+      width: 344px;
+      height: 245px;
+      float: left; }
+      #vacancies-work .section-wrapper .work-block .work-image img {
+        width: 100%;
+        height: 100%;
+        float: left; }
+    #vacancies-work .section-wrapper .work-block .work-content {
+      width: 560px;
+      height: auto;
+      float: right; }
+      #vacancies-work .section-wrapper .work-block .work-content p {
+        font-family: PTSansRegular;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left; }
+      #vacancies-work .section-wrapper .work-block .work-content p:first-child {
+        margin-top: 0; }
+
+/*
+ * VACANCIES -> REQUIRED
+ */
+#vacancies-required {
+  background-color: white; }
+  #vacancies-required .section-wrapper > h1 {
+    display: block;
+    width: 95%;
+    font-family: PTSansBold;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px auto; }
+  #vacancies-required .section-wrapper .required-block {
+    width: 960px;
+    margin: 40px auto 0;
+    overflow: hidden; }
+    #vacancies-required .section-wrapper .required-block .required-block-element {
+      width: 100%;
+      overflow: hidden;
+      padding: 50px 0;
+      margin: 0;
+      border-bottom: 2px solid #cacaca; }
+      #vacancies-required .section-wrapper .required-block .required-block-element .required-image {
+        width: 257px;
+        height: auto;
+        float: left; }
+        #vacancies-required .section-wrapper .required-block .required-block-element .required-image > img {
+          width: 257px;
+          height: 160px; }
+        #vacancies-required .section-wrapper .required-block .required-block-element .required-image > button {
+          display: block;
+          width: 257px;
+          height: 40px;
+          background-color: white;
+          border: 2px solid #3498db;
+          border-radius: initial;
+          font-family: PTSansBold;
+          color: #3498db;
+          font-size: 20px;
+          line-height: 36px;
+          font-weight: 700;
+          text-align: center;
+          padding: 0;
+          margin: 20px auto;
+          -webkit-transition: 0.2s linear;
+          transition: 0.2s linear; }
+        #vacancies-required .section-wrapper .required-block .required-block-element .required-image > button:hover {
+          color: white;
+          background-color: #3498db; }
+      #vacancies-required .section-wrapper .required-block .required-block-element .required-content {
+        width: 650px;
+        height: auto;
+        float: right; }
+        #vacancies-required .section-wrapper .required-block .required-block-element .required-content h2 {
+          font-family: PTSansBold;
+          font-size: 24px;
+          font-weight: 700;
+          text-align: left;
+          margin: 0 0 20px; }
+        #vacancies-required .section-wrapper .required-block .required-block-element .required-content h3 {
+          font-family: PTSansBold;
+          color: #363636;
+          font-size: 18px;
+          font-weight: 700;
+          text-align: left;
+          margin: 15px 0; }
+        #vacancies-required .section-wrapper .required-block .required-block-element .required-content p {
+          font-family: PTSansRegular;
+          font-size: 18px;
+          font-weight: 400;
+          text-align: left;
+          margin: 10px 0; }
+        #vacancies-required .section-wrapper .required-block .required-block-element .required-content ul {
+          padding: 0;
+          margin: 15px 0;
+          list-style: none; }
+          #vacancies-required .section-wrapper .required-block .required-block-element .required-content ul li {
+            font-family: PTSansRegular;
+            color: #363636;
+            font-size: 18px;
+            font-weight: 400;
+            text-align: left;
+            margin: 5px 0; }
+          #vacancies-required .section-wrapper .required-block .required-block-element .required-content ul li:before {
+            content: "- "; }
+        #vacancies-required .section-wrapper .required-block .required-block-element .required-content .required-hidden {
+          display: none; }
+        #vacancies-required .section-wrapper .required-block .required-block-element .required-content .required-show {
+          font-family: PTSansBold;
+          color: #3498db;
+          font-size: 20px;
+          font-weight: 700;
+          text-align: left;
+          cursor: pointer;
+          margin: 28px 0 0; }
+    #vacancies-required .section-wrapper .required-block .required-block-element:last-child {
+      border: none;
+      padding-bottom: 15px; }
+
+/*
+ * VACANCIES -> MESSAGE
+ */
+#vacancies-message {
+  background-color: #fafafa; }
+  #vacancies-message .section-wrapper h1 {
+    display: block;
+    width: 95%;
+    font-family: PTSansBold;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px auto 45px; }
+  #vacancies-message .section-wrapper p {
+    display: block;
+    width: 870px;
+    font-family: PTSansRegular;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: 15px auto; }
+  #vacancies-message .section-wrapper #vacancies-form {
+    background-color: #4b5677;
+    width: 940px;
+    min-height: 410px;
+    border-radius: 5px;
+    border: none;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 46px auto 26px;
+    padding: 30px 20px; }
+    #vacancies-message .section-wrapper #vacancies-form input, #vacancies-message .section-wrapper #vacancies-form select, #vacancies-message .section-wrapper #vacancies-form textarea {
+      display: inline-block;
+      background-color: #ffffff;
+      width: 280px;
+      height: 48px;
+      font-family: PTSansRegular;
+      color: #464545;
+      font-size: 20px;
+      font-weight: 400;
+      text-align: center;
+      border-radius: initial;
+      padding: 15px 19px;
+      margin: 10px;
+      float: left; }
+    #vacancies-message .section-wrapper #vacancies-form select {
+      padding: 0 17px;
+      line-height: 48px; }
+    #vacancies-message .section-wrapper #vacancies-form #vac-city {
+      width: 260px; }
+    #vacancies-message .section-wrapper #vacancies-form #vac-age {
+      width: 210px; }
+    #vacancies-message .section-wrapper #vacancies-form #vac-position {
+      width: 370px; }
+    #vacancies-message .section-wrapper #vacancies-form textarea {
+      width: 840px;
+      min-height: 128px;
+      resize: vertical;
+      text-align: left; }
+    #vacancies-message .section-wrapper #vacancies-form input[type=submit] {
+      width: 216px;
+      height: 48px;
+      font-family: PTSansBold;
+      color: #ffffff;
+      font-size: 22px;
+      line-height: 48px;
+      font-weight: 700;
+      text-align: center;
+      text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+      background-color: #2ecc71;
+      border-radius: 5px;
+      border-bottom: 3px solid #229955;
+      -webkit-transition: 0.2s linear;
+      transition: 0.2s linear;
+      padding: 0;
+      margin-top: 28px; }
+    #vacancies-message .section-wrapper #vacancies-form input[type=submit]:hover {
+      background-color: #51D88C;
+      border-bottom: 3px solid #0AC25A; }
+
+@media (min-width: 724px) and (max-width: 1140px) {
+ /*
+* VACANCIES -> HEADER
+*/
+  #vacancies-header .section-wrapper h1 {
+    width: 95%;
+    margin: 140px auto; }
+
+  /*
+   * VACANCIES -> WHY WE
+   */
+  #vacancies-why-we .section-wrapper h1 {
+    width: 95%;
+    font-size: 34px;
+    margin: 20px auto; }
+  #vacancies-why-we .section-wrapper .vacancies-why-we-content {
+    width: 740px;
+    margin: 40px auto 30px;
+    overflow: hidden; }
+    #vacancies-why-we .section-wrapper .vacancies-why-we-content img {
+      width: 400px;
+      height: 290px;
+      margin: 0; }
+    #vacancies-why-we .section-wrapper .vacancies-why-we-content > div {
+      width: 310px;
+      margin: 0; }
+      #vacancies-why-we .section-wrapper .vacancies-why-we-content > div p {
+        font-size: 18px; }
+
+  /*
+   * VACANCIES -> WELCOME
+   */
+  #vacancies-welcome {
+    padding-bottom: 25px; }
+    #vacancies-welcome .section-wrapper h1 {
+      font-size: 38px;
+      margin: 0 auto 25px; }
+    #vacancies-welcome .section-wrapper > div {
+      margin: 0 auto; }
+
+  /*
+   * VACANCIES -> WHAT WE DO
+   */
+  #vacancies-what-we-do .section-wrapper > h1 {
+    font-size: 34px;
+    margin: 10px auto 15px; }
+  #vacancies-what-we-do .section-wrapper .what-we-do-content {
+    width: 720px;
+    margin: 20px auto; }
+    #vacancies-what-we-do .section-wrapper .what-we-do-content p {
+      margin: 15px auto; }
+  #vacancies-what-we-do .section-wrapper .what-we-do-images {
+    width: 740px;
+    height: auto;
+    margin: 36px auto 20px;
+    overflow: hidden; }
+    #vacancies-what-we-do .section-wrapper .what-we-do-images img {
+      width: 350px;
+      height: 233px;
+      margin: 0 10px;
+      float: left; }
+
+  /*
+   * VACANCIES -> REASONS
+   */
+  #vacancies-reasons .section-wrapper > h1 {
+    font-size: 34px; }
+  #vacancies-reasons .section-wrapper .reasons {
+    width: 724px;
+    margin: 20px auto;
+    overflow: hidden; }
+    #vacancies-reasons .section-wrapper .reasons .reasons-element {
+      width: 100%;
+      margin: 0 auto; }
+      #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-element-block .reasons-element-image {
+        width: 250px; }
+        #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-element-block .reasons-element-image img {
+          width: auto;
+          height: 100%;
+          float: left;
+          margin-left: -20%; }
+      #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-element-block .reasons-element-content {
+        width: 412px;
+        padding: 20px 30px; }
+        #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-element-block .reasons-element-content h2 {
+          font-size: 24px;
+          margin: 0 0 15px; }
+        #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-element-block .reasons-element-content p {
+          font-size: 18px;
+          line-height: 22px;
+          margin: 10px 0; }
+    #vacancies-reasons .section-wrapper .reasons .reasons-element:nth-child(7) .reasons-element-block .reasons-element-content {
+      padding: 10px 30px 0; }
+
+  /*
+   * VACANCIES -> COMMENT
+   */
+  #vacancies-comment {
+    background-color: #2d313d; }
+    #vacancies-comment .section-wrapper > h1 {
+      font-size: 34px;
+      margin: 20px auto 25px; }
+    #vacancies-comment .section-wrapper .comment-block {
+      width: 680px;
+      margin: 25px auto 10px; }
+      #vacancies-comment .section-wrapper .comment-block .comment-image {
+        display: block;
+        width: 400px;
+        float: none;
+        margin: 0 auto 26px; }
+        #vacancies-comment .section-wrapper .comment-block .comment-image img {
+          display: inline-block;
+          width: 120px;
+          height: 120px;
+          margin: 0 23px 0 0; }
+        #vacancies-comment .section-wrapper .comment-block .comment-image > p {
+          display: inline-block;
+          text-align: left;
+          margin: 35px 0;
+          float: right; }
+      #vacancies-comment .section-wrapper .comment-block .comment-content {
+        width: 100%;
+        float: none;
+        margin: 0; }
+        #vacancies-comment .section-wrapper .comment-block .comment-content p {
+          text-align: none; }
+        #vacancies-comment .section-wrapper .comment-block .comment-content p:first-child {
+          margin-top: 0; }
+
+  /*
+   * VACANCIES -> WORK
+   */
+  #vacancies-work {
+    background-color: #fafafa; }
+    #vacancies-work .section-wrapper > h1 {
+      font-size: 34px;
+      margin: 20px auto; }
+    #vacancies-work .section-wrapper .work-block {
+      width: 724px;
+      margin: 40px auto 0;
+      overflow: hidden; }
+      #vacancies-work .section-wrapper .work-block .work-image {
+        width: 291px;
+        height: 207px; }
+      #vacancies-work .section-wrapper .work-block .work-content {
+        width: 410px; }
+        #vacancies-work .section-wrapper .work-block .work-content p {
+          font-size: 18px;
+          margin: 10px 0; }
+
+  /*
+   * VACANCIES -> REQUIRED
+   */
+  #vacancies-required {
+    background-color: white; }
+    #vacancies-required .section-wrapper > h1 {
+      font-size: 34px;
+      margin: 20px auto; }
+    #vacancies-required .section-wrapper .required-block {
+      width: 720px;
+      margin: 0 auto; }
+      #vacancies-required .section-wrapper .required-block .required-block-element {
+        width: 100%;
+        padding: 50px 0; }
+        #vacancies-required .section-wrapper .required-block .required-block-element .required-content {
+          width: 430px; }
+      #vacancies-required .section-wrapper .required-block .required-block-element:last-child {
+        padding-bottom: 15px; }
+
+  /*
+   * VACANCIES -> MESSAGE
+   */
+  #vacancies-message {
+    background-color: #fafafa; }
+    #vacancies-message .section-wrapper h1 {
+      font-size: 34px;
+      margin: 30px auto 35px; }
+    #vacancies-message .section-wrapper p {
+      width: 700px;
+      margin: 15px auto; }
+    #vacancies-message .section-wrapper #vacancies-form {
+      width: 475px;
+      margin: 46px auto 26px;
+      padding: 40px 25px; }
+      #vacancies-message .section-wrapper #vacancies-form input, #vacancies-message .section-wrapper #vacancies-form select, #vacancies-message .section-wrapper #vacancies-form textarea {
+        width: 425px;
+        padding: 15px 19px;
+        margin: 10px 0;
+        float: left; }
+      #vacancies-message .section-wrapper #vacancies-form #vac-city {
+        width: 425px; }
+      #vacancies-message .section-wrapper #vacancies-form #vac-age {
+        width: 425px; }
+      #vacancies-message .section-wrapper #vacancies-form #vac-position {
+        width: 425px;
+        padding: 0 17px;
+        text-align: center; }
+      #vacancies-message .section-wrapper #vacancies-form textarea {
+        width: 425px;
+        box-sizing: border-box;
+        margin: 10px auto 38px; }
+      #vacancies-message .section-wrapper #vacancies-form input[type=submit] {
+        display: block;
+        width: 290px;
+        margin: 0 auto;
+        float: none; } }
+@media (max-width: 724px) {
+  /*
+   * VACANCIES -> HEADER
+   */
+  #vacancies-header .section-wrapper h1 {
+    width: 95%;
+    font-size: 33px;
+    margin: 140px auto; }
+
+  /*
+   * VACANCIES -> WHY WE
+   */
+  #vacancies-why-we .section-wrapper h1 {
+    width: 95%;
+    font-size: 24px;
+    margin: 20px auto; }
+  #vacancies-why-we .section-wrapper .vacancies-why-we-content {
+    width: 95%;
+    margin: 20px auto;
+    overflow: hidden; }
+    #vacancies-why-we .section-wrapper .vacancies-why-we-content img {
+      width: 100%;
+      height: auto;
+      margin: 0 auto 20px; }
+    #vacancies-why-we .section-wrapper .vacancies-why-we-content > div {
+      width: 100%;
+      margin: 0 auto; }
+      #vacancies-why-we .section-wrapper .vacancies-why-we-content > div p {
+        font-size: 18px; }
+
+  /*
+   * VACANCIES -> WELCOME
+   */
+  #vacancies-welcome {
+    padding-bottom: 30px; }
+    #vacancies-welcome .section-wrapper h1 {
+      font-size: 26px;
+      margin: 0 auto 20px; }
+    #vacancies-welcome .section-wrapper > div {
+      width: 50px;
+      height: 78px;
+      background-size: cover;
+      margin: 0 auto; }
+
+  /*
+   * VACANCIES -> WHAT WE DO
+   */
+  #vacancies-what-we-do .section-wrapper > h1 {
+    font-size: 24px;
+    margin: 10px auto 15px; }
+  #vacancies-what-we-do .section-wrapper .what-we-do-content {
+    width: 95%;
+    margin: 0px auto; }
+    #vacancies-what-we-do .section-wrapper .what-we-do-content p {
+      font-size: 18px;
+      margin: 15px auto; }
+  #vacancies-what-we-do .section-wrapper .what-we-do-images {
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    overflow: hidden; }
+    #vacancies-what-we-do .section-wrapper .what-we-do-images img {
+      display: block;
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      margin: 10px auto;
+      float: none; }
+
+  /*
+   * VACANCIES -> REASONS
+   */
+  #vacancies-reasons {
+    padding-bottom: 0; }
+    #vacancies-reasons .section-wrapper > h1 {
+      font-size: 24px; }
+    #vacancies-reasons .section-wrapper .reasons {
+      width: 100%;
+      max-width: 400px;
+      margin: 18px auto 0; }
+      #vacancies-reasons .section-wrapper .reasons .reasons-element {
+        width: 100%; }
+        #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-number {
+          width: 36px;
+          height: 116px;
+          margin: 0 auto; }
+          #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-number p {
+            width: 36px;
+            height: 36px;
+            font-size: 18px;
+            line-height: 36px; }
+        #vacancies-reasons .section-wrapper .reasons .reasons-element .number-first {
+          height: 76px !important; }
+        #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-element-block {
+          border-top: 10px solid #dbdbdb;
+          border-bottom: 10px solid #dbdbdb; }
+          #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-element-block .reasons-element-image {
+            width: 100%;
+            height: 180px;
+            float: none; }
+            #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-element-block .reasons-element-image img {
+              width: 100%;
+              height: auto;
+              margin-top: -15%; }
+          #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-element-block .reasons-element-content {
+            width: 95%;
+            float: none;
+            padding: 20px; }
+            #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-element-block .reasons-element-content h2 {
+              font-size: 22px;
+              margin: 15px 0; }
+            #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-element-block .reasons-element-content p {
+              font-size: 16px;
+              line-height: 20px;
+              margin: 10px 0; }
+            #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-element-block .reasons-element-content ul {
+              padding: 0;
+              margin: 15px 0;
+              list-style: none; }
+              #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-element-block .reasons-element-content ul li p {
+                margin: 0; }
+        #vacancies-reasons .section-wrapper .reasons .reasons-element .reasons-element-block:last-child {
+          margin: 7px auto 0; }
+
+  /*
+   * VACANCIES -> COMMENT
+   */
+  #vacancies-comment {
+    background-color: #2d313d; }
+    #vacancies-comment .section-wrapper > h1 {
+      font-size: 24px;
+      margin: 20px auto; }
+    #vacancies-comment .section-wrapper .comment-block {
+      width: 100%;
+      max-width: 400px;
+      margin: 20px auto; }
+      #vacancies-comment .section-wrapper .comment-block .comment-image {
+        display: block;
+        width: 100%;
+        max-width: 400px;
+        float: none;
+        margin: 0 auto 26px;
+        overflow: hidden; }
+        #vacancies-comment .section-wrapper .comment-block .comment-image img {
+          display: inline-block;
+          width: 120px;
+          height: 120px;
+          margin: 0 0 0 2.5%;
+          float: left; }
+        #vacancies-comment .section-wrapper .comment-block .comment-image > p {
+          display: inline-block;
+          text-align: left;
+          margin: 35px 2.5% 15px;
+          float: right; }
+      #vacancies-comment .section-wrapper .comment-block .comment-content {
+        width: 95%;
+        float: none;
+        clear: both;
+        margin: 15px auto 0;
+        overflow: hidden; }
+        #vacancies-comment .section-wrapper .comment-block .comment-content p {
+          font-size: 16px;
+          text-align: left; }
+
+  /*
+   * VACANCIES -> WORK
+   */
+  #vacancies-work .section-wrapper > h1 {
+    font-size: 24px;
+    margin: 20px auto; }
+  #vacancies-work .section-wrapper .work-block {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto 0; }
+    #vacancies-work .section-wrapper .work-block .work-image {
+      width: 95%;
+      height: auto;
+      margin: 15px auto;
+      overflow: hidden;
+      float: none; }
+    #vacancies-work .section-wrapper .work-block .work-content {
+      width: 95%;
+      margin: 0 auto;
+      overflow: hidden;
+      float: none; }
+      #vacancies-work .section-wrapper .work-block .work-content p {
+        font-size: 18px;
+        margin: 15px 0; }
+
+  /*
+   * VACANCIES -> REQUIRED
+   */
+  #vacancies-required .section-wrapper > h1 {
+    font-size: 24px;
+    margin: 20px auto; }
+  #vacancies-required .section-wrapper .required-block {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto 0; }
+    #vacancies-required .section-wrapper .required-block .required-block-element {
+      width: 95%;
+      padding: 25px 0;
+      margin: 0 auto; }
+      #vacancies-required .section-wrapper .required-block .required-block-element .required-image {
+        width: 100%;
+        height: auto;
+        float: none; }
+        #vacancies-required .section-wrapper .required-block .required-block-element .required-image > img {
+          width: 100%;
+          height: auto; }
+        #vacancies-required .section-wrapper .required-block .required-block-element .required-image > button {
+          width: 100%;
+          margin: 20px auto; }
+      #vacancies-required .section-wrapper .required-block .required-block-element .required-content {
+        width: 100%;
+        float: none; }
+        #vacancies-required .section-wrapper .required-block .required-block-element .required-content h2 {
+          font-size: 20px;
+          margin: 0 0 20px; }
+        #vacancies-required .section-wrapper .required-block .required-block-element .required-content h3 {
+          font-size: 16px;
+          margin: 15px 0; }
+        #vacancies-required .section-wrapper .required-block .required-block-element .required-content p {
+          font-size: 16px;
+          margin: 10px 0; }
+        #vacancies-required .section-wrapper .required-block .required-block-element .required-content ul {
+          padding: 0;
+          margin: 15px 0;
+          list-style: none; }
+          #vacancies-required .section-wrapper .required-block .required-block-element .required-content ul li {
+            font-size: 16px;
+            margin: 5px 0; }
+        #vacancies-required .section-wrapper .required-block .required-block-element .required-content .required-show {
+          font-size: 18px;
+          margin: 17px 0 0; }
+    #vacancies-required .section-wrapper .required-block .required-block-element:last-child {
+      padding-bottom: 15px; }
+
+  /*
+   * VACANCIES -> MESSAGE
+   */
+  #vacancies-message {
+    background-color: #fafafa; }
+    #vacancies-message .section-wrapper h1 {
+      font-size: 24px;
+      margin: 20px auto; }
+    #vacancies-message .section-wrapper p {
+      display: block;
+      width: 95%;
+      font-size: 18px;
+      margin: 15px auto; }
+    #vacancies-message .section-wrapper #vacancies-form {
+      width: 100%;
+      max-width: 475px;
+      margin: 24px auto 20px;
+      padding: 30px 2.5%; }
+      #vacancies-message .section-wrapper #vacancies-form input, #vacancies-message .section-wrapper #vacancies-form select, #vacancies-message .section-wrapper #vacancies-form textarea {
+        width: 100% !important;
+        padding: 0 19px;
+        margin: 8px 0;
+        float: none; }
+      #vacancies-message .section-wrapper #vacancies-form textarea {
+        box-sizing: border-box;
+        margin-bottom: 20px; }
+      #vacancies-message .section-wrapper #vacancies-form input[type=submit] {
+        display: block;
+        width: 95%;
+        max-width: 290px;
+        margin: 0 auto; } }
+@media (max-width: 400px) {
+  /*
+   * VACANCIES -> COMMENT
+   */
+  #vacancies-comment {
+    background-color: #2d313d; }
+    #vacancies-comment .section-wrapper .comment-block .comment-image img {
+      display: block;
+      margin: 0 auto;
+      float: none; }
+    #vacancies-comment .section-wrapper .comment-block .comment-image > p {
+      display: block;
+      margin: 20px auto 15px;
+      float: none;
+      clear: both;
+      text-align: center; } }
 body {
   width: 100%;
   margin: 0;
@@ -5079,5 +6044,11 @@ input[type=submit] {
 @media (max-width: 724px) {
   .more {
     font-size: 16px; } }
+.socials-fixed {
+  width: 42px;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 45%; }
 
 /*# sourceMappingURL=index.css.map */
