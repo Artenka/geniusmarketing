@@ -22,14 +22,14 @@
         </a>
 
         <ul class="nav-lg nav">
-            <?php wp_list_pages('title_li='); ?>
+            <?php wp_list_pages('exclude='. get_page_by_title("Команда")->ID .'&title_li='); ?>
         </ul>
 
         <div class="nav-md nav">
             <div class="collapse-btn-sm"></div>
             <div class="collapse-btn">Меню</div>
             <ul class="menu">
-                <?php wp_list_pages('title_li='); ?>
+                <?php wp_list_pages('exclude='. get_page_by_title("Команда")->ID .'&title_li='); ?>
             </ul>
         </div>
     </div>

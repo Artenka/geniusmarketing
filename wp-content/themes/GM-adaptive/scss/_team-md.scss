@@ -1,0 +1,50 @@
+@media (min-width: 724px) and (max-width: 1140px) {
+
+  /*
+   * TEAM -> HEADER
+   */
+
+  #team-header {
+
+    .section-wrapper {
+
+      h1 {
+        font-size: 48px;
+        margin: 120px auto 25px;
+      }
+
+      h2 {
+        width: 95%;
+        font-size: 20px;
+        margin: 15px auto 90px;
+      }
+    }
+  }
+
+  /*
+   * TEAM -> MAIN
+   */
+
+  #team-main {
+    background-color: #fafafa;
+
+    .section-wrapper {
+
+      .team {
+
+        .team-element {
+          display: block;
+          width: 720px;
+          padding: 20px;
+          margin: 10px auto;
+          float: none;
+
+          .team-element-content {
+            width: 460px;
+          }
+        }
+      }
+    }
+  }
+
+}

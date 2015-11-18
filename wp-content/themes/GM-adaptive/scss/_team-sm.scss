@@ -1,0 +1,66 @@
+@media (max-width: 724px) {
+
+  /*
+ * TEAM -> HEADER
+ */
+
+  #team-header {
+
+    .section-wrapper {
+
+      h1 {
+        font-size: 35px;
+        margin: 140px auto 25px;
+      }
+
+      h2 {
+        width: 95%;
+        font-size: 16px;
+        margin: 15px auto 90px;
+      }
+    }
+  }
+
+  /*
+   * TEAM -> MAIN
+   */
+
+  #team-main {
+
+    .section-wrapper {
+
+      .team {
+
+        .team-element {
+          display: block;
+          width: 95%;
+          max-width: 400px;
+          height: auto;
+          margin: 15px auto;
+          float: none;
+
+          .team-element-image {
+            float: none;
+            margin: 0 auto 20px;
+          }
+
+          .team-element-content {
+            width: 100%;
+            height: auto;
+            float: none;
+            margin: 20px auto 0;
+
+            .description {
+              height: auto;
+            }
+
+            .team-element-footer {
+              margin: 25px 0 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
