@@ -31,3 +31,5 @@ add_action( 'wp_enqueue_scripts', 'my_scripts' );
 add_action('wp_enqueue_scripts', 'my_styles');
 
 add_filter( 'show_admin_bar' , 'my_function_admin_bar');
+
+add_theme_support('post-thumbnails'); // поддержка миниатюр

@@ -1,0 +1,196 @@
+@media (min-width: 724px) and (max-width: 1140px) {
+
+  /*
+   * LAB SINGLE -> HEADER
+   */
+
+  #lab-single-header {
+
+    .section-wrapper {
+
+      h1 {
+        width: 95%;
+        font-size: 40px;
+        margin: 120px auto 40px;
+      }
+    }
+  }
+
+  .author {
+    left: 42%;
+  }
+
+  /*
+   * LAB SINGLE -> MAIN
+   */
+
+  #lab-single-main {
+
+    .section-wrapper {
+
+      .lab-single-content-block {
+        width: 724px;
+        margin: 0 auto;
+
+        .content-date {
+          width: 60px;
+          left: 0;
+          top: 0;
+
+          p {
+            font-size: 14px;
+            line-height: 16px;
+            margin: 4px 0;
+          }
+
+          .date {
+            font-size: 45px;
+            line-height: 45px;
+            margin-top: 50px;
+          }
+        }
+
+        .content {
+          width: 600px;
+          margin: 0 auto 10px;
+          padding: 25px;
+        }
+      }
+
+      .lab-single-likes {
+        width: 600px;
+        padding: 15px;
+        margin: 10px auto;
+      }
+
+      .book {
+        width: 600px;
+        margin: 30px auto 0;
+
+        header {
+          width: 100%;
+          background-color: $red;
+
+          h2 {
+            font-size: 17px;
+            padding: 15px 0 8px;
+          }
+
+          h1 {
+            font-size: 20px;
+            margin: 0 auto;
+            padding: 0 0 15px;
+          }
+        }
+
+        .book-info {
+          width: 100%;
+          height: 330px;
+          background-size: auto;
+
+          > div {
+            width: 225px;
+            height: 89px;
+            margin: 27px 24px;
+            padding: 7px;
+            box-sizing: border-box;
+
+            h2 {
+              font-size: 16px;
+            }
+
+            p {
+              font-size: 14px;
+              margin: 5px 0;
+            }
+          }
+
+          > span {
+            display: block;
+            width: 57px;
+            height: 53px;
+            background-size: cover;
+            left: 126px;
+            top: 120px;
+          }
+        }
+
+        .book-address {
+          height: 170px;
+          padding: 5px 25px;
+          overflow: hidden;
+
+          h1 {
+            font-size: 16px;
+          }
+
+          #book-form {
+            height: 65px;
+
+            input {
+              width: 169px;
+              height: 28px;
+              font-size: 14px;
+              padding: 14px 11px;
+              margin: 18px 7px;
+              float: left;
+            }
+
+            input[type=submit] {
+              width: 169px;
+              height: 38px;
+              font-size: 14px;
+            }
+          }
+
+          .book-spam {
+            height: 21px;
+            margin: 14px 0;
+
+            > span {
+              width: 21px;
+              height: 21px;
+              background-size: cover;
+            }
+
+            p {
+              font-size: 12px;
+              line-height: 21px;
+              margin: 0 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /*
+   * LAB SINGLE -> RECOMMENDED
+   */
+
+  #lab-single-recommended {
+
+    .section-wrapper {
+
+      > h1 {
+        font-size: 34px;
+      }
+    }
+  }
+
+  /*
+   * LAB SINGLE -> COMMENTS
+   */
+
+  #lab-single-comments {
+
+    .section-wrapper {
+
+      > h1 {
+        font-size: 34px;
+        margin: 0 auto 40px;
+      }
+    }
+  }
+
+}
