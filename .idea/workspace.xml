@@ -25,19 +25,10 @@
     <splitter split-orientation="vertical" split-proportion="0.5170517">
       <split-first>
         <leaf>
-          <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/home.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="438" column="14" selection-start="17102" selection-end="18836" vertical-scroll-proportion="0.0" vertical-offset="7157" max-vertical-offset="8432">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="page-team.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="page-team.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/page-team.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="25" column="42" selection-start="827" selection-end="827" vertical-scroll-proportion="-3.9060051" vertical-offset="1887" max-vertical-offset="2363">
+                <state line="33" column="26" selection-start="709" selection-end="1415" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="2397">
                   <folding />
                 </state>
               </provider>
@@ -46,7 +37,7 @@
           <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="95" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0" vertical-offset="259" max-vertical-offset="714">
+                <state line="24" column="95" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="714">
                   <folding />
                 </state>
               </provider>
@@ -55,16 +46,25 @@
           <file leaf-file-name="single.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/single.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="52" column="89" selection-start="2248" selection-end="2321" vertical-scroll-proportion="0.0" vertical-offset="884" max-vertical-offset="3230">
+                <state line="52" column="89" selection-start="2248" selection-end="2321" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="3230">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="page-contacts.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/page-contacts.php">
+          <file leaf-file-name="single-team.php" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/single-team.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="3" selection-start="66" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1819">
+                <state line="33" column="36" selection-start="1640" selection-end="1663" vertical-scroll-proportion="0.5397351" vertical-offset="398" max-vertical-offset="1904">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/home.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="473" column="10" selection-start="16957" selection-end="19826" vertical-scroll-proportion="0.0" vertical-offset="7871" max-vertical-offset="8432">
                   <folding />
                 </state>
               </provider>
@@ -77,7 +77,16 @@
           <file leaf-file-name="index.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/index.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="35" column="16" selection-start="738" selection-end="738" vertical-scroll-proportion="-7.1923075" vertical-offset="408" max-vertical-offset="5831">
+                <state line="8" column="20" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="5882">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_team-single.scss" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_team-single.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="155" column="24" selection-start="3481" selection-end="3481" vertical-scroll-proportion="-1.0950819" vertical-offset="2969" max-vertical-offset="3638">
                   <folding />
                 </state>
               </provider>
@@ -95,7 +104,7 @@
           <file leaf-file-name="_home.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_home.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="915" column="3" selection-start="17978" selection-end="17978" vertical-scroll-proportion="0.0" vertical-offset="15400" max-vertical-offset="18190">
+                <state line="990" column="1" selection-start="16817" selection-end="19508" vertical-scroll-proportion="0.0" vertical-offset="16675" max-vertical-offset="18190">
                   <folding />
                 </state>
               </provider>
@@ -104,25 +113,7 @@
           <file leaf-file-name="_team.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_team.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="86" column="30" selection-start="0" selection-end="4367" vertical-scroll-proportion="-30.307692" vertical-offset="674" max-vertical-offset="3196">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_team-md.scss" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_team-md.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="0" selection-start="85" selection-end="310" vertical-scroll-proportion="-1.9615384" vertical-offset="51" max-vertical-offset="935">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_team-sm.scss" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_team-sm.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="41" column="31" selection-start="577" selection-end="577" vertical-scroll-proportion="0.5738162" vertical-offset="491" max-vertical-offset="1207">
+                <state line="51" column="6" selection-start="918" selection-end="4355" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="3196">
                   <folding />
                 </state>
               </provider>
@@ -140,12 +131,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_variables.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/GM-adaptive/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_footer-md.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_sliders.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_footer.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_footer-sm.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_header.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_header-md.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_header-sm.scss" />
@@ -187,10 +175,13 @@
         <option value="$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_lab-single-sm.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/GM-adaptive/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_team.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/index.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/GM-adaptive/page-team.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_team-md.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_team-sm.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_footer-sm.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/index.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/GM-adaptive/single-team.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_team-single.scss" />
       </list>
     </option>
   </component>
@@ -321,7 +312,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,30 +341,8 @@
               <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dev.geniusmarketing.me" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev.geniusmarketing.me" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GM-adaptive" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="team-single" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -399,11 +368,11 @@
       <recent name="D:\WebServers\home\localhost\www\dev.geniusmarketing.me\wp-content\themes\GM-adaptive\img\contacts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebServers\home\localhost\www\dev.geniusmarketing.me\wp-content\themes\GM-adaptive\img\team-single" />
       <recent name="D:\WebServers\home\localhost\www\dev.geniusmarketing.me\wp-content\themes\GM-adaptive\img\lab-single\book" />
       <recent name="D:\WebServers\home\localhost\www\dev.geniusmarketing.me\wp-content\themes\GM-adaptive\img\lab-single\comment" />
       <recent name="D:\WebServers\home\localhost\www\dev.geniusmarketing.me\wp-content\themes\GM-adaptive\img\lab-single\main" />
       <recent name="D:\WebServers\home\localhost\www\dev.geniusmarketing.me\wp-content\themes\GM-adaptive\img\lab-single\header" />
-      <recent name="D:\WebServers\home\localhost\www\dev.geniusmarketing.me\wp-content\themes\GM-adaptive\img\vacancies\required" />
     </key>
   </component>
   <component name="RunManager">
@@ -440,11 +409,11 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17453349" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17343578" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3071823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.320442" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -496,31 +465,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/page-trainings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="50" selection-start="9466" selection-end="9466" vertical-scroll-proportion="0.5686275" vertical-offset="2556" max-vertical-offset="2975" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_trainings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="277" column="20" selection-start="6073" selection-end="6073" vertical-scroll-proportion="0.0" vertical-offset="4418" max-vertical-offset="4862" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_trainings-sm.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="27" selection-start="1361" selection-end="1361" vertical-scroll-proportion="-11.192307" vertical-offset="1018" max-vertical-offset="1734" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/page-lab.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="18" selection-start="5977" selection-end="5977" vertical-scroll-proportion="0.6666667" vertical-offset="1819" max-vertical-offset="2788" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_lab-md.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="885" selection-end="885" vertical-scroll-proportion="-3.4705882" vertical-offset="928" max-vertical-offset="1258" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_lab-sm.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="143" column="0" selection-start="2518" selection-end="2518" vertical-scroll-proportion="-3.4705882" vertical-offset="2254" max-vertical-offset="2584" />
@@ -678,13 +622,6 @@
         <state line="140" column="10" selection-start="3021" selection-end="3718" vertical-scroll-proportion="-2.2941177" vertical-offset="2263" max-vertical-offset="5916" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="915" column="3" selection-start="17978" selection-end="17978" vertical-scroll-proportion="0.0" vertical-offset="15400" max-vertical-offset="18190">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/img/lab-single/comment/disqus-comment.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -692,30 +629,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_lab-single.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="508" column="13" selection-start="0" selection-end="12227" vertical-scroll-proportion="0.0" vertical-offset="4515" max-vertical-offset="10149">
-          <folding />
-        </state>
+        <state line="508" column="13" selection-start="0" selection-end="12227" vertical-scroll-proportion="0.0" vertical-offset="4515" max-vertical-offset="10149" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_lab-single-md.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="26" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="3417">
-          <folding />
-        </state>
+        <state line="48" column="26" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="3417" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_lab-single-sm.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="303" column="0" selection-start="5299" selection-end="5299" vertical-scroll-proportion="-6.8076925" vertical-offset="4974" max-vertical-offset="5389">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="438" column="14" selection-start="17102" selection-end="18836" vertical-scroll-proportion="0.0" vertical-offset="7157" max-vertical-offset="8432">
-          <folding />
-        </state>
+        <state line="303" column="0" selection-start="5299" selection-end="5299" vertical-scroll-proportion="-6.8076925" vertical-offset="4974" max-vertical-offset="5389" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/header.php">
@@ -727,56 +651,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/page-contacts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="66" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1819">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="89" selection-start="2248" selection-end="2321" vertical-scroll-proportion="0.0" vertical-offset="884" max-vertical-offset="3230">
-          <folding />
-        </state>
+        <state line="8" column="3" selection-start="66" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1819" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_lab.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="8" selection-start="4346" selection-end="4835" vertical-scroll-proportion="0.0" vertical-offset="3401" max-vertical-offset="5117">
-          <folding />
-        </state>
+        <state line="204" column="8" selection-start="4346" selection-end="4835" vertical-scroll-proportion="0.0" vertical-offset="3401" max-vertical-offset="5117" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/index.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_team-md.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="16" selection-start="738" selection-end="738" vertical-scroll-proportion="-7.1923075" vertical-offset="408" max-vertical-offset="5831">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="85" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_team-sm.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="28" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0" vertical-offset="542" max-vertical-offset="1207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_footer-sm.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="22" selection-start="1898" selection-end="1898" vertical-scroll-proportion="-7.3076925" vertical-offset="1595" max-vertical-offset="2023" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_team-single-md.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="406" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_team-single-sm.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="385" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/page-team.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="42" selection-start="827" selection-end="827" vertical-scroll-proportion="-3.9060051" vertical-offset="1887" max-vertical-offset="2363">
+        <state line="33" column="26" selection-start="709" selection-end="1415" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="2397">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_team.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="30" selection-start="0" selection-end="4367" vertical-scroll-proportion="-30.307692" vertical-offset="674" max-vertical-offset="3196">
+        <state line="51" column="6" selection-start="918" selection-end="4355" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="3196">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_team-md.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="85" selection-end="310" vertical-scroll-proportion="-1.9615384" vertical-offset="51" max-vertical-offset="935">
+        <state line="52" column="89" selection-start="2248" selection-end="2321" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="3230">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_team-sm.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="31" selection-start="577" selection-end="577" vertical-scroll-proportion="0.5738162" vertical-offset="491" max-vertical-offset="1207">
+        <state line="8" column="20" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="5882">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="473" column="10" selection-start="16957" selection-end="19826" vertical-scroll-proportion="0.0" vertical-offset="7871" max-vertical-offset="8432">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="990" column="1" selection-start="16817" selection-end="19508" vertical-scroll-proportion="0.0" vertical-offset="16675" max-vertical-offset="18190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/single-team.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="36" selection-start="1640" selection-end="1663" vertical-scroll-proportion="0.5397351" vertical-offset="398" max-vertical-offset="1904">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_team-single.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="155" column="24" selection-start="3481" selection-end="3481" vertical-scroll-proportion="-1.0950819" vertical-offset="2969" max-vertical-offset="3638">
           <folding />
         </state>
       </provider>

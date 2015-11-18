@@ -1,0 +1,209 @@
+/*
+ * TEAM -> HEADER
+ */
+
+#team-single-header {
+  background-image: url('../img/team/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  .section-wrapper {
+
+    h1 {
+      display: block;
+      width: 95%;
+      font-family: CenturyGothicBold;
+      color: #ffffff;
+      font-size: 54px;
+      font-weight: 700;
+      text-align: center;
+      text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
+      margin: 140px auto 20px;
+    }
+
+    h2 {
+      display: block;
+      width: 925px;
+      font-family: CenturyGothicRegular;
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: 400;
+      text-align: center;
+      text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
+      margin: 15px auto 125px;
+    }
+  }
+}
+
+/*
+ * TEAM SINGLE -> MAIN
+ */
+
+#team-single-main {
+  background-color: #fafafa;
+
+  .section-wrapper {
+
+    .team-single-element {
+      display: block;
+      width: 1138px;
+      height: auto;
+      box-sizing: border-box;
+      border-radius: 3px;
+      border: 1px solid #e1e1e1;
+      border-bottom: 3px solid #e1e1e1;
+      background-color:  #ffffff;
+      overflow: hidden;
+      padding: 20px;
+      margin: 10px auto;
+
+      .team-element-image {
+        width: 315px;
+        height: 100%;
+        float: left;
+
+        img {
+          display: block;
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .team-element-content {
+        width: 755px;
+        height: 100%;
+        float: right;
+
+        h1 {
+          font-family: PTSansBold;
+          color:  #242424;
+          font-size: 26px;
+          line-height: 26px;
+          font-weight: 700;
+          text-align: left;
+          margin: 0 auto 15px;
+        }
+
+        p {
+          font-family: PTSansRegular;
+          color:  #242424;
+          font-size: 18px;
+          line-height: 20px;
+          font-weight: 400;
+          text-align: left;
+          margin: 10px auto;
+
+          b {
+            font-family: PTSansBold;
+            font-weight: 700;
+          }
+        }
+
+        .team-element-footer {
+          width: 100%;
+          height: 31px;
+          overflow: hidden;
+          margin: 50px 0 0;
+
+          .team-element-socials {
+            width: 123px;
+            display: block;
+            float: left;
+
+            > a {
+              display: inline-block;
+              width: 31px;
+              height: 31px;
+              background-repeat: no-repeat;
+              background-position: center center;
+              background-size: cover;
+              -webkit-transition: background-image 0.2s ease-in-out;
+              transition: background-image 0.2s ease-in-out;
+              margin: 0 3px;
+            }
+
+            .team-element-vk {
+              background-image: url('../img/team/vk.png');
+            }
+            .team-element-fb {
+              background-image: url('../img/team/fb.png');
+            }
+            .team-element-in {
+              background-image: url('../img/team/in.png');
+            }
+
+            .team-element-vk:hover {
+              background-image: url('../img/team/vk-hover.png');
+            }
+            .team-element-fb:hover {
+              background-image: url('../img/team/fb-hover.png');
+            }
+            .team-element-in:hover {
+              background-image: url('../img/team/in-hover.png');
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+ * TEAM SINGLE -> RECOMMENDED
+ */
+
+#team-single-recommended {
+  background: #f3f3f3;
+
+  .section-wrapper {
+
+    > button {
+      display: block;
+      font-family: PTSansRegular;
+      color:  #ffffff;
+      font-size: 20px;
+      line-height: 20px;
+      font-weight: 400;
+      text-align: left;
+      padding: 17px 20px;
+      margin: 0 auto;
+    }
+
+    .tags {
+      width: 100%;
+      margin: 75px 20px;
+
+      h2 {
+        display: inline-block;
+        font-family: PTSansBold;
+        color:  #fd4f3f;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: left;
+        margin: 5px;
+      }
+
+      p {
+        display: inline-block;
+        font-family: PTSansRegular;
+        color:  #fffefe;
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 400;
+        text-align: left;
+        padding: 8px 9px;
+        border-radius: 3px;
+        border: none;
+        background-color:  #2d313d;
+        margin: 5px;
+        -webkit-transition: 0.2s linear;
+        transition: 0.2s linear;
+      }
+
+      p:hover {
+        background: $red;
+      }
+    }
+  }
+}
