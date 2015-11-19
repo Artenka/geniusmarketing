@@ -158,6 +158,12 @@
 
   .section-wrapper {
 
+    > h1 {
+      display: block;
+      width: 95%;
+      font-size: 34px;
+    }
+
     > button {
       display: block;
       font-family: PTSansRegular;

@@ -55,7 +55,7 @@
           <file leaf-file-name="single-team.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/single-team.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="33" column="36" selection-start="1640" selection-end="1663" vertical-scroll-proportion="0.5397351" vertical-offset="398" max-vertical-offset="1904">
+                <state line="33" column="36" selection-start="1640" selection-end="1663" vertical-scroll-proportion="0.5415282" vertical-offset="398" max-vertical-offset="1904">
                   <folding />
                 </state>
               </provider>
@@ -86,7 +86,7 @@
           <file leaf-file-name="_team-single.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_team-single.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="155" column="24" selection-start="3481" selection-end="3481" vertical-scroll-proportion="-1.0950819" vertical-offset="2969" max-vertical-offset="3638">
+                <state line="155" column="24" selection-start="3481" selection-end="3481" vertical-scroll-proportion="-1.0986842" vertical-offset="2969" max-vertical-offset="3638">
                   <folding />
                 </state>
               </provider>
@@ -406,10 +406,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="957" y="0" width="963" height="1040" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17343578" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17381738" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -728,14 +728,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/single-team.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="36" selection-start="1640" selection-end="1663" vertical-scroll-proportion="0.5397351" vertical-offset="398" max-vertical-offset="1904">
+        <state line="33" column="36" selection-start="1640" selection-end="1663" vertical-scroll-proportion="0.5415282" vertical-offset="398" max-vertical-offset="1904">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/GM-adaptive/scss/_team-single.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="24" selection-start="3481" selection-end="3481" vertical-scroll-proportion="-1.0950819" vertical-offset="2969" max-vertical-offset="3638">
+        <state line="155" column="24" selection-start="3481" selection-end="3481" vertical-scroll-proportion="-1.0986842" vertical-offset="2969" max-vertical-offset="3638">
           <folding />
         </state>
       </provider>

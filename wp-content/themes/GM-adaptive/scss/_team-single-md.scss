@@ -1,0 +1,71 @@
+@media (min-width: 724px) and (max-width: 1140px) {
+
+  /*
+   * TEAM SINGLE -> HEADER
+   */
+
+  #team-single-header {
+
+    .section-wrapper {
+
+      h1 {
+        font-size: 48px;
+        margin: 120px auto 25px;
+      }
+
+      h2 {
+        width: 95%;
+        font-size: 20px;
+        margin: 15px auto 90px;
+      }
+    }
+  }
+
+  /*
+   * TEAM SINGLE -> MAIN
+   */
+
+  #team-single-main {
+
+    .section-wrapper {
+
+      .team-single-element {
+        width: 720px;
+        padding: 20px;
+        margin: 10px auto;
+
+        .team-element-image {
+          width: 270px;
+          height: 100%;
+        }
+
+        .team-element-content {
+          width: 380px;
+
+          .team-element-footer {
+            width: 100%;
+            height: 31px;
+            overflow: hidden;
+            margin: 40px 0 0;
+          }
+        }
+      }
+    }
+  }
+
+  /*
+   * TEAM SINGLE -> RECOMMENDED
+   */
+
+  #team-single-recommended {
+
+    .section-wrapper {
+
+      .tags {
+        width: 95%;
+        margin: 60px auto 20px;
+      }
+    }
+  }
+
+}
