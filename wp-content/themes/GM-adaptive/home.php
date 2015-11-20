@@ -4,11 +4,13 @@
 
 
 <header id="main-header">
-    <div id="video-background">
-        <video autoplay loop>
-            <source src="<?php bloginfo(template_url); ?>/videos/fon.webm" type="video/webm">
-            <source src="<?php bloginfo(template_url); ?>/videos/fon.mp4" type="video/mp4">
-        </video>
+    <div class="pattern">
+        <div id="video-background">
+            <video autoplay loop>
+                <source src="<?php bloginfo(template_url); ?>/videos/fon.webm" type="video/webm">
+                <source src="<?php bloginfo(template_url); ?>/videos/fon.mp4" type="video/mp4">
+            </video>
+        </div>
     </div>
 
     <div class="section-wrapper">
